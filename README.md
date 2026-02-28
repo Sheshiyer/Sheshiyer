@@ -107,7 +107,7 @@ Auto-generate modern READMEs by scanning your repo. The tool that writes the pag
 ![Bun](https://img.shields.io/badge/Bun-070B1D?style=for-the-badge&logo=bun&logoColor=F0EDE3)
 
 ![Claude Code](https://img.shields.io/badge/Claude_Code-070B1D?style=for-the-badge&logo=anthropic&logoColor=C5A017)
-![FAL.AI](https://img.shields.io/badge/FAL.AI-070B1D?style=for-the-badge&logo=data:image/svg+xml;base64,&logoColor=10B5A7)
+![FAL.AI](https://img.shields.io/badge/FAL.AI-070B1D?style=for-the-badge&logoColor=10B5A7)
 ![Framer](https://img.shields.io/badge/Framer-070B1D?style=for-the-badge&logo=framer&logoColor=0B50FB)
 ![VS Code](https://img.shields.io/badge/VS_Code-070B1D?style=for-the-badge&logo=visualstudiocode&logoColor=0B50FB)
 
@@ -118,9 +118,9 @@ Auto-generate modern READMEs by scanning your repo. The tool that writes the pag
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Sheshiyer&show_icons=true&bg_color=35,070B1D,2D0050&title_color=C5A017&text_color=F0EDE3&icon_color=10B5A7&ring_color=0B50FB&hide_border=true&count_private=true" alt="GitHub Stats" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Sheshiyer&show_icons=true&bg_color=35,070B1D,2D0050&title_color=C5A017&text_color=F0EDE3&icon_color=10B5A7&hide_border=true&count_private=true" alt="GitHub Stats" height="180"/>
   &nbsp;&nbsp;
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Sheshiyer&background=070B1D&ring=0B50FB&fire=C5A017&currStreakLabel=C5A017&sideLabels=F0EDE3&currStreakNum=F0EDE3&dates=F0EDE3&sideNums=10B5A7&stroke=2D0050&hide_border=true" alt="GitHub Streak" height="180"/>
+  <img src="https://streak-stats.demolab.com?user=Sheshiyer&background=070B1D&ring=0B50FB&fire=C5A017&currStreakLabel=C5A017&sideLabels=F0EDE3&currStreakNum=F0EDE3&dates=F0EDE3&sideNums=10B5A7&stroke=2D0050&hide_border=true" alt="GitHub Streak" height="180"/>
 </p>
 
 <img src="assets/divider.svg" width="100%" alt="divider"/>
