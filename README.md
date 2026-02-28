@@ -118,7 +118,7 @@ Auto-generate modern READMEs by scanning your repo. The tool that writes the pag
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Sheshiyer&show_icons=true&bg_color=35,070B1D,2D0050&title_color=C5A017&text_color=F0EDE3&icon_color=10B5A7&hide_border=true&count_private=true" alt="GitHub Stats" height="180"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Sheshiyer&show_icons=true&bg_color=35,070B1D,2D0050&title_color=C5A017&text_color=F0EDE3&icon_color=10B5A7&hide_border=true&count_private=true" alt="GitHub Stats" height="180"/>
   &nbsp;&nbsp;
   <img src="https://streak-stats.demolab.com?user=Sheshiyer&background=070B1D&ring=0B50FB&fire=C5A017&currStreakLabel=C5A017&sideLabels=F0EDE3&currStreakNum=F0EDE3&dates=F0EDE3&sideNums=10B5A7&stroke=2D0050&hide_border=true" alt="GitHub Streak" height="180"/>
 </p>
