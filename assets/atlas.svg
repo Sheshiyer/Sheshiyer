@@ -1,134 +1,73 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" width="1200" height="620">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
   <defs>
-    <linearGradient id="atlas-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#F7F2E8"/>
-      <stop offset="62%" stop-color="#ECE5D8"/>
-      <stop offset="100%" stop-color="#DED4C2"/>
+    <linearGradient id="field" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0C0C0B"/>
+      <stop offset="58%" stop-color="#141412"/>
+      <stop offset="100%" stop-color="#23211D"/>
     </linearGradient>
-    <linearGradient id="atlas-ink" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#18181B" stop-opacity="0.18"/>
-      <stop offset="48%" stop-color="#18181B" stop-opacity="0.78"/>
-      <stop offset="100%" stop-color="#18181B" stop-opacity="0.18"/>
-    </linearGradient>
-    <radialGradient id="atlas-gold" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#B08D57" stop-opacity="0.48"/>
-      <stop offset="58%" stop-color="#B08D57" stop-opacity="0.14"/>
-      <stop offset="100%" stop-color="#B08D57" stop-opacity="0"/>
-    </radialGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.86" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.12"/>
+      </feComponentTransfer>
+    </filter>
     <style>
-      .title { font-family: "Geist", "Satoshi", "Avenir Next", sans-serif; font-weight: 700; letter-spacing: -1.2px; }
-      .label { font-family: "Geist Mono", "SFMono-Regular", Consolas, monospace; font-weight: 600; letter-spacing: 1.2px; }
+      .title { font-family: "Geist", "Satoshi", "Avenir Next", sans-serif; font-weight: 700; letter-spacing: -0.8px; }
+      .mono { font-family: "Geist Mono", "SFMono-Regular", Consolas, monospace; font-weight: 600; letter-spacing: 1px; }
       .body { font-family: "Geist", "Satoshi", "Avenir Next", sans-serif; font-weight: 400; }
-      .small { font-family: "Geist Mono", "SFMono-Regular", Consolas, monospace; font-weight: 500; letter-spacing: 0.6px; }
     </style>
   </defs>
 
-  <rect width="1200" height="620" rx="34" fill="url(#atlas-bg)"/>
-  <rect x="26" y="26" width="1148" height="568" rx="26" fill="none" stroke="#18181B" stroke-opacity="0.1"/>
-  <circle cx="650" cy="304" r="252" fill="url(#atlas-gold)"/>
+  <rect width="1200" height="760" rx="30" fill="url(#field)"/>
+  <rect width="1200" height="760" rx="30" filter="url(#grain)" opacity="0.42"/>
+  <rect x="28" y="28" width="1144" height="704" rx="22" fill="none" stroke="#E1E0CC" stroke-opacity="0.12"/>
 
-  <g opacity="0.18">
-    <path d="M96 142H1102" stroke="#18181B" stroke-width="1"/>
-    <path d="M96 236H1102" stroke="#18181B" stroke-width="1"/>
-    <path d="M96 330H1102" stroke="#18181B" stroke-width="1"/>
-    <path d="M96 424H1102" stroke="#18181B" stroke-width="1"/>
-    <path d="M216 76V540" stroke="#18181B" stroke-width="1"/>
-    <path d="M408 76V540" stroke="#18181B" stroke-width="1"/>
-    <path d="M600 76V540" stroke="#18181B" stroke-width="1"/>
-    <path d="M792 76V540" stroke="#18181B" stroke-width="1"/>
-    <path d="M984 76V540" stroke="#18181B" stroke-width="1"/>
-  </g>
+  <text class="mono" x="72" y="78" fill="#DEDBC8" font-size="13">PUBLIC WORK INDEX / WEEKLY METADATA SNAPSHOT</text>
+  <text class="title" x="72" y="124" fill="#E1E0CC" font-size="42">170 public repositories across six operating fields.</text>
+  <text class="body" x="72" y="158" fill="#A9A797" font-size="18">A static field index generated from public repository metadata.</text>
+  <rect x="72" y="198" width="1056" height="1" fill="#E1E0CC" fill-opacity="0.16"/>
 
-  <g transform="translate(72 70)">
-    <text class="label" x="0" y="0" fill="#7A6139" font-size="13">PUBLIC OPERATING ATLAS / 170 REPOSITORIES</text>
-    <text class="title" x="0" y="50" fill="#18181B" font-size="42">Six fields, one operating body.</text>
-    <text class="body" x="0" y="82" fill="#3F3F46" font-size="18">A cartography of recurring systems, not a ranked project list.</text>
-  </g>
-
-  <g transform="translate(112 184)">
-    <path d="M34 94C182 8 244 210 394 98C538 -8 622 210 760 92C860 6 932 48 1010 122" fill="none" stroke="#18181B" stroke-opacity="0.5" stroke-width="1.4"/>
-    <path d="M68 244C218 172 312 322 464 238C632 146 750 334 894 236C948 198 1000 206 1052 242" fill="none" stroke="#18181B" stroke-opacity="0.26" stroke-width="1"/>
-    <path d="M116 158C274 236 360 70 520 150C666 224 792 116 974 162" fill="none" stroke="#B08D57" stroke-opacity="0.64" stroke-width="1.8"/>
-
-    <g>
-      <circle cx="34" cy="94" r="46" fill="#18181B" fill-opacity="0.08" stroke="#18181B" stroke-opacity="0.24"/>
-      <circle cx="34" cy="94" r="8" fill="#B08D57"/>
-      <text class="label" x="-28" y="156" fill="#18181B" font-size="12">VENTURE OPS</text>
-      <text class="small" x="-22" y="176" fill="#52525B" font-size="11">cambium / brandmint</text>
+    <g transform="translate(0 240)">
+      <text class="mono" x="72" y="0" fill="#E1E0CC" font-size="13">VENTURE OPS</text>
+      <text class="body" x="72" y="28" fill="#A9A797" font-size="15">Taste, planning, execution, and review stay in the same loop.</text>
+      <rect x="640" y="-16" width="152" height="12" rx="6" fill="#E1E0CC" fill-opacity="0.44"/>
+      <rect x="808" y="-16" width="72" height="12" rx="6" fill="#DEDBC8" fill-opacity="0.82"/>
+      <text class="mono" x="620" y="-5" fill="#DEDBC8" font-size="12" text-anchor="end">12 repos</text>
     </g>
-
-    <g>
-      <circle cx="250" cy="138" r="62" fill="#18181B" fill-opacity="0.06" stroke="#18181B" stroke-opacity="0.18"/>
-      <circle cx="250" cy="138" r="10" fill="#18181B"/>
-      <text class="label" x="188" y="226" fill="#18181B" font-size="12">REFLECTION</text>
-      <text class="small" x="176" y="246" fill="#52525B" font-size="11">selemene / witness</text>
+    <g transform="translate(0 322)">
+      <text class="mono" x="72" y="0" fill="#E1E0CC" font-size="13">REFLECTION</text>
+      <text class="body" x="72" y="28" fill="#A9A797" font-size="15">Symbolic work is kept runnable, inspectable, and grounded in code.</text>
+      <rect x="640" y="-16" width="157" height="12" rx="6" fill="#E1E0CC" fill-opacity="0.44"/>
+      <rect x="813" y="-16" width="58" height="12" rx="6" fill="#DEDBC8" fill-opacity="0.82"/>
+      <text class="mono" x="620" y="-5" fill="#DEDBC8" font-size="12" text-anchor="end">14 repos</text>
     </g>
-
-    <g>
-      <circle cx="462" cy="98" r="54" fill="#18181B" fill-opacity="0.07" stroke="#18181B" stroke-opacity="0.2"/>
-      <circle cx="462" cy="98" r="9" fill="#B08D57"/>
-      <text class="label" x="406" y="36" fill="#18181B" font-size="12">SPATIAL</text>
-      <text class="small" x="382" y="56" fill="#52525B" font-size="11">vantyx / panoramas</text>
+    <g transform="translate(0 404)">
+      <text class="mono" x="72" y="0" fill="#E1E0CC" font-size="13">SPATIAL</text>
+      <text class="body" x="72" y="28" fill="#A9A797" font-size="15">Place is treated as interface: mapped, navigable, and operational.</text>
+      <rect x="640" y="-16" width="149" height="12" rx="6" fill="#E1E0CC" fill-opacity="0.44"/>
+      <rect x="805" y="-16" width="100" height="12" rx="6" fill="#DEDBC8" fill-opacity="0.82"/>
+      <text class="mono" x="620" y="-5" fill="#DEDBC8" font-size="12" text-anchor="end">11 repos</text>
     </g>
-
-    <g>
-      <circle cx="628" cy="214" r="70" fill="#18181B" fill-opacity="0.055" stroke="#18181B" stroke-opacity="0.18"/>
-      <circle cx="628" cy="214" r="11" fill="#18181B"/>
-      <text class="label" x="566" y="310" fill="#18181B" font-size="12">TRUST SURFACES</text>
-      <text class="small" x="560" y="330" fill="#52525B" font-size="11">fitcheck / klear karma</text>
+    <g transform="translate(0 486)">
+      <text class="mono" x="72" y="0" fill="#E1E0CC" font-size="13">TRUST</text>
+      <text class="body" x="72" y="28" fill="#A9A797" font-size="15">Trust surfaces carry consent, verification, and cultural context.</text>
+      <rect x="640" y="-16" width="154" height="12" rx="6" fill="#E1E0CC" fill-opacity="0.44"/>
+      <rect x="810" y="-16" width="58" height="12" rx="6" fill="#DEDBC8" fill-opacity="0.82"/>
+      <text class="mono" x="620" y="-5" fill="#DEDBC8" font-size="12" text-anchor="end">13 repos</text>
     </g>
-
-    <g>
-      <circle cx="816" cy="120" r="58" fill="#18181B" fill-opacity="0.065" stroke="#18181B" stroke-opacity="0.2"/>
-      <circle cx="816" cy="120" r="9" fill="#B08D57"/>
-      <text class="label" x="760" y="52" fill="#18181B" font-size="12">NARRATIVE</text>
-      <text class="small" x="740" y="72" fill="#52525B" font-size="11">somatic / synchronocities</text>
+    <g transform="translate(0 568)">
+      <text class="mono" x="72" y="0" fill="#E1E0CC" font-size="13">NARRATIVE</text>
+      <text class="body" x="72" y="28" fill="#A9A797" font-size="15">Archives hold story, research, media, and ritual without flattening them.</text>
+      <rect x="640" y="-16" width="175" height="12" rx="6" fill="#E1E0CC" fill-opacity="0.44"/>
+      <rect x="831" y="-16" width="86" height="12" rx="6" fill="#DEDBC8" fill-opacity="0.82"/>
+      <text class="mono" x="620" y="-5" fill="#DEDBC8" font-size="12" text-anchor="end">21 repos</text>
     </g>
-
-    <g>
-      <circle cx="1010" cy="122" r="44" fill="#18181B" fill-opacity="0.08" stroke="#18181B" stroke-opacity="0.24"/>
-      <circle cx="1010" cy="122" r="8" fill="#18181B"/>
-      <text class="label" x="940" y="184" fill="#18181B" font-size="12">TOOLS</text>
-      <text class="small" x="904" y="204" fill="#52525B" font-size="11">skills / raycast / mcp</text>
+    <g transform="translate(0 650)">
+      <text class="mono" x="72" y="0" fill="#E1E0CC" font-size="13">TOOLS</text>
+      <text class="body" x="72" y="28" fill="#A9A797" font-size="15">Expert workflows become portable without shaving off the practice.</text>
+      <rect x="640" y="-16" width="380" height="12" rx="6" fill="#E1E0CC" fill-opacity="0.44"/>
+      <rect x="1036" y="-16" width="86" height="12" rx="6" fill="#DEDBC8" fill-opacity="0.82"/>
+      <text class="mono" x="620" y="-5" fill="#DEDBC8" font-size="12" text-anchor="end">99 repos</text>
     </g>
-
-    <g fill="#18181B" fill-opacity="0.32">
-      <circle cx="86" cy="126" r="2.6"/>
-      <circle cx="122" cy="76" r="2"/>
-      <circle cx="164" cy="116" r="2.4"/>
-      <circle cx="202" cy="178" r="2.1"/>
-      <circle cx="302" cy="96" r="2.8"/>
-      <circle cx="338" cy="164" r="2.2"/>
-      <circle cx="388" cy="128" r="2.6"/>
-      <circle cx="512" cy="142" r="2.4"/>
-      <circle cx="546" cy="82" r="2"/>
-      <circle cx="588" cy="172" r="2.8"/>
-      <circle cx="678" cy="168" r="2.3"/>
-      <circle cx="714" cy="252" r="2.5"/>
-      <circle cx="766" cy="202" r="2.1"/>
-      <circle cx="872" cy="104" r="2.6"/>
-      <circle cx="910" cy="158" r="2"/>
-      <circle cx="956" cy="86" r="2.4"/>
-      <circle cx="1036" cy="164" r="2.7"/>
-      <circle cx="988" cy="238" r="2.2"/>
-      <circle cx="448" cy="254" r="2.6"/>
-      <circle cx="362" cy="244" r="2"/>
-      <circle cx="166" cy="250" r="2.2"/>
-    </g>
-  </g>
-
-  <g transform="translate(72 506)">
-    <rect x="0" y="0" width="1056" height="1.5" rx="0.75" fill="url(#atlas-ink)"/>
-    <text class="small" x="0" y="42" fill="#52525B" font-size="12">LANGUAGE MASS</text>
-    <rect x="134" y="29" width="418" height="10" rx="5" fill="#18181B" fill-opacity="0.72"/>
-    <rect x="560" y="29" width="129" height="10" rx="5" fill="#18181B" fill-opacity="0.46"/>
-    <rect x="697" y="29" width="118" height="10" rx="5" fill="#18181B" fill-opacity="0.38"/>
-    <rect x="823" y="29" width="112" height="10" rx="5" fill="#18181B" fill-opacity="0.25"/>
-    <rect x="943" y="29" width="78" height="10" rx="5" fill="#B08D57" fill-opacity="0.72"/>
-    <text class="small" x="134" y="62" fill="#3F3F46" font-size="11">TypeScript</text>
-    <text class="small" x="560" y="62" fill="#3F3F46" font-size="11">JS</text>
-    <text class="small" x="697" y="62" fill="#3F3F46" font-size="11">Python</text>
-    <text class="small" x="823" y="62" fill="#3F3F46" font-size="11">Mixed</text>
-    <text class="small" x="943" y="62" fill="#7A6139" font-size="11">Other</text>
-  </g>
 </svg>
