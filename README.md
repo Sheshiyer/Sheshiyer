@@ -1,4 +1,4 @@
-<img src="assets/banner.svg" alt="Mage Narayan - Witness Alchemist at Thoughtseed Labs" width="100%" />
+<img src="assets/banner.jpg" alt="Mage Narayan - Witness Alchemist at Thoughtseed Labs" width="100%" />
 
 <p align="center">
   <a href="#through-line">Through-line</a>
