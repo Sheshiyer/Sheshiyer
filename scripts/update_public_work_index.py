@@ -65,6 +65,8 @@ FIELDS = [
     },
 ]
 
+PUBLIC_ANCHOR_EXCLUDES = {"sheshiyer", "motionsites-skills"}
+
 
 def shell_json(command: list[str]) -> object:
     output = subprocess.check_output(command, cwd=ROOT, text=True)
@@ -198,14 +200,14 @@ def generate_markdown(repos: list[dict[str, object]]) -> str:
     lines.append("| --- | ---: | --- | --- |")
     for field in FIELDS:
         bucket = by_field[field["name"]]
-        anchor_pool = [repo for repo in bucket if str(repo["name"]).lower() != profile_name]
+        anchor_pool = [repo for repo in bucket if str(repo["name"]).lower() not in PUBLIC_ANCHOR_EXCLUDES]
         anchors = ", ".join(repo_link(repo) for repo in anchor_pool[:4]) or "N/A"
         lines.append(f"| {field['name']} | {len(bucket)} | {anchors} | {field['pattern']} |")
 
     recent = [
         repo
         for repo in sorted(repos, key=lambda item: str(item.get("updated_at") or ""), reverse=True)
-        if str(repo["name"]).lower() != profile_name
+        if str(repo["name"]).lower() not in PUBLIC_ANCHOR_EXCLUDES
     ][:8]
     lines.append("")
     lines.append("## Recent public movement")
@@ -302,9 +304,9 @@ def generate_svg(repos: list[dict[str, object]]) -> str:
   <rect width="1200" height="760" rx="30" filter="url(#grain)" opacity="0.42"/>
   <rect x="28" y="28" width="1144" height="704" rx="22" fill="none" stroke="#E1E0CC" stroke-opacity="0.12"/>
 
-  <text class="mono" x="72" y="78" fill="#DEDBC8" font-size="13">PUBLIC WORK INDEX / WEEKLY METADATA SNAPSHOT</text>
+  <text class="mono" x="72" y="78" fill="#DEDBC8" font-size="13">PUBLIC WORK INDEX / SIX OPERATING FIELDS</text>
   <text class="title" x="72" y="124" fill="#E1E0CC" font-size="42">{len(repos)} public repositories across six operating fields.</text>
-  <text class="body" x="72" y="158" fill="#A9A797" font-size="18">A static field index generated from public repository metadata.</text>
+  <text class="body" x="72" y="158" fill="#A9A797" font-size="18">A living map of rooms, tools, runtimes, archives, and trust surfaces.</text>
   <rect x="72" y="198" width="1056" height="1" fill="#E1E0CC" fill-opacity="0.16"/>
 {''.join(rows)}
 </svg>
