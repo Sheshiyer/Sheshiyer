@@ -4,24 +4,24 @@
 
 # Mage Narayan
 
-**Witness Alchemist at Thoughtseed Labs.** I build operator systems, ritual interfaces, and venture tooling that make inner process concrete enough to ship.
+**Witness Alchemist at Thoughtseed Labs.** Operator systems, ritual interfaces, and venture tooling for embodied execution.
 
-I keep a wide public lab: **170 public non-fork repositories reviewed**, led by TypeScript, Python, JavaScript, Astro, Shell, and Rust. The work clusters around one question: how do taste, embodiment, and autonomous execution become infrastructure?
+Public work spans **170 non-fork repositories**, led by TypeScript, Python, JavaScript, Astro, Shell, and Rust. The through-line is practical: turn taste, embodiment, and autonomous execution into systems that can be inspected, run, and improved.
 
 <table>
 <tr>
 <td width="58%" valign="top">
 
-### Field note
+### Operating focus
 
-This README is designed as a public operating atlas, not a trophy case. The useful question is not "what have I built?" but "which systems keep reappearing across the work?"
+Agentic product systems, spatial interfaces, brand orchestration, symbolic runtimes, and local-first operator tools.
 
 </td>
 <td width="42%" valign="top">
 
-### Current edge
+### Recurring materials
 
-Agentic product systems, spatial interfaces, brand orchestration, symbolic runtimes, and local-first operator tools.
+TypeScript, React, Astro, Python, Rust, Cloudflare, Electron, Tauri, Raycast, shell automation.
 
 </td>
 </tr>
@@ -29,21 +29,17 @@ Agentic product systems, spatial interfaces, brand orchestration, symbolic runti
 
 <img src="assets/divider.svg" width="100%" alt="section divider" />
 
-## Operating thesis
+## Through-line
 
-Most software ships only the outer surface. I am interested in the missing layer: the system that turns intention into procedure, procedure into interface, and interface into repeatable work.
+Most software ships the outer surface. The missing layer is the operating substrate: intention becomes procedure, procedure becomes interface, and interface becomes repeatable work.
 
-That shows up as venture operators, brand foundries, local agent runtimes, spatial real-estate systems, narrative engines, healing-marketplace tools, and reflection-first computing experiments. The public repositories are not isolated demos; they are organs in a larger operating body.
+That substrate appears across venture operators, brand foundries, local agent runtimes, spatial real-estate systems, narrative engines, healing-marketplace tools, and reflection-first computing experiments.
 
-<img src="assets/atlas.svg" alt="Public repository atlas organized by venture operations, reflection runtimes, spatial interfaces, commerce trust, narrative archives, and tool surfaces" width="100%" />
+<img src="assets/atlas.svg" alt="Public work index organized by venture operations, reflection runtimes, spatial systems, trust surfaces, narrative archives, and toolmaking" width="100%" />
 
-## How to read the atlas
+## Public work index
 
-The public surface is arranged as six overlapping fields. Each field contains a few anchor repositories, but the point is the connective tissue: brand systems become operator tools, operator tools become interfaces, interfaces become archives, archives become new runtimes.
-
-## Repository map
-
-| Domain | Representative repositories | What the work proves |
+| Domain | Representative repositories | Pattern |
 | --- | --- | --- |
 | Agentic venture operations | [`cambium`](https://github.com/Sheshiyer/cambium), [`brandmint-oracle-aleph`](https://github.com/Sheshiyer/brandmint-oracle-aleph), [`meristem`](https://github.com/Sheshiyer/meristem), [`skill-clusters`](https://github.com/Sheshiyer/skill-clusters), [`snow-gloves-os`](https://github.com/Sheshiyer/snow-gloves-os), [`team-forge-ts`](https://github.com/Sheshiyer/team-forge-ts) | Systems can coordinate taste, planning, brand, execution, and review without collapsing into generic automation. |
 | Consciousness and reflection runtimes | [`Selemene-engine`](https://github.com/Sheshiyer/Selemene-engine), [`witness-agents`](https://github.com/Sheshiyer/witness-agents), [`noesis`](https://github.com/Sheshiyer/noesis), [`tryambakam-space`](https://github.com/Sheshiyer/tryambakam-space), [`tryambakam-noesis-paperclip`](https://github.com/Sheshiyer/tryambakam-noesis-paperclip), [`samsclawra`](https://github.com/Sheshiyer/samsclawra) | Symbolic systems can be implemented as inspectable runtimes, not just written about as metaphors. |
