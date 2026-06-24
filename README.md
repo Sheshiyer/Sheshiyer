@@ -37,29 +37,30 @@ That substrate appears across venture operators, brand foundries, local agent ru
 
 <img src="assets/atlas.svg" alt="Public work index organized by venture operations, reflection runtimes, spatial systems, trust surfaces, narrative archives, and toolmaking" width="100%" />
 
+<!-- public-work-index:start -->
 ## Public work index
 
-| Domain | Representative repositories | Pattern |
-| --- | --- | --- |
-| Agentic venture operations | [`cambium`](https://github.com/Sheshiyer/cambium), [`brandmint-oracle-aleph`](https://github.com/Sheshiyer/brandmint-oracle-aleph), [`meristem`](https://github.com/Sheshiyer/meristem), [`skill-clusters`](https://github.com/Sheshiyer/skill-clusters), [`snow-gloves-os`](https://github.com/Sheshiyer/snow-gloves-os), [`team-forge-ts`](https://github.com/Sheshiyer/team-forge-ts) | Systems can coordinate taste, planning, brand, execution, and review without collapsing into generic automation. |
-| Consciousness and reflection runtimes | [`Selemene-engine`](https://github.com/Sheshiyer/Selemene-engine), [`witness-agents`](https://github.com/Sheshiyer/witness-agents), [`noesis`](https://github.com/Sheshiyer/noesis), [`tryambakam-space`](https://github.com/Sheshiyer/tryambakam-space), [`tryambakam-noesis-paperclip`](https://github.com/Sheshiyer/tryambakam-noesis-paperclip), [`samsclawra`](https://github.com/Sheshiyer/samsclawra) | Symbolic systems can be implemented as inspectable runtimes, not just written about as metaphors. |
-| Spatial and real-estate interfaces | [`vantyx`](https://github.com/Sheshiyer/vantyx), [`marina1-k`](https://github.com/Sheshiyer/marina1-k), [`president-panaroma`](https://github.com/Sheshiyer/president-panaroma), [`marina-one-v2-preview`](https://github.com/Sheshiyer/marina-one-v2-preview), [`parkarea-aleph`](https://github.com/Sheshiyer/parkarea-aleph), [`Insightreality`](https://github.com/Sheshiyer/Insightreality) | Property, panorama, and tour experiences need operational backplanes, not only polished viewers. |
-| Commerce, trust, and local discovery | [`fitcheck-landing`](https://github.com/Sheshiyer/fitcheck-landing), [`HDILINT-backend-aleph`](https://github.com/Sheshiyer/HDILINT-backend-aleph), [`virtualtryon`](https://github.com/Sheshiyer/virtualtryon), [`klear-karma`](https://github.com/Sheshiyer/klear-karma), [`klear-karma-website-v2`](https://github.com/Sheshiyer/klear-karma-website-v2), [`tirakplus`](https://github.com/Sheshiyer/tirakplus) | Trust is a product surface: consent, verification, cultural context, and careful onboarding are part of the architecture. |
-| Narrative, media, and archives | [`synchronocities-blog`](https://github.com/Sheshiyer/synchronocities-blog), [`Somatic-Canticles`](https://github.com/Sheshiyer/Somatic-Canticles), [`somatic-canticles-bm-wiki`](https://github.com/Sheshiyer/somatic-canticles-bm-wiki), [`wtfmedia`](https://github.com/Sheshiyer/wtfmedia), [`red-rabbit-hole`](https://github.com/Sheshiyer/red-rabbit-hole), [`tpothp`](https://github.com/Sheshiyer/tpothp) | Story systems can hold research, media, ritual, and product logic in one navigable form. |
-| Skills, tools, and developer surfaces | [`motionsites-skills`](https://github.com/Sheshiyer/motionsites-skills), [`professional-headshot-suite`](https://github.com/Sheshiyer/professional-headshot-suite), [`explee-skills`](https://github.com/Sheshiyer/explee-skills), [`github-next-wave-orchestrator`](https://github.com/Sheshiyer/github-next-wave-orchestrator), [`swarm-architect-skill`](https://github.com/Sheshiyer/swarm-architect-skill), [`raycast-extensions`](https://github.com/Sheshiyer/raycast-extensions) | The best tools make expert workflows portable without flattening the expert. |
+| Field | Public repos | Recent anchors | Pattern |
+| --- | ---: | --- | --- |
+| Venture operations | 12 | [`cambium`](https://github.com/Sheshiyer/cambium), [`temperance_engine`](https://github.com/Sheshiyer/temperance_engine), [`snow-gloves-os`](https://github.com/Sheshiyer/snow-gloves-os), [`brandmint-oracle-aleph`](https://github.com/Sheshiyer/brandmint-oracle-aleph) | Taste, planning, execution, and review are treated as one operating loop. |
+| Reflection runtimes | 14 | [`tpothp`](https://github.com/Sheshiyer/tpothp), [`Selemene-engine`](https://github.com/Sheshiyer/Selemene-engine), [`witness-agents`](https://github.com/Sheshiyer/witness-agents), [`witness-agents-113`](https://github.com/Sheshiyer/witness-agents-113) | Symbolic and contemplative systems are implemented as inspectable runtimes. |
+| Spatial systems | 11 | [`vantyx`](https://github.com/Sheshiyer/vantyx), [`marina1-k`](https://github.com/Sheshiyer/marina1-k), [`newsense-spatial`](https://github.com/Sheshiyer/newsense-spatial), [`dashboard-0.1-coproperty`](https://github.com/Sheshiyer/dashboard-0.1-coproperty) | Place, panorama, and property experiences carry their own operational backplanes. |
+| Trust surfaces | 13 | [`fitcheck-landing`](https://github.com/Sheshiyer/fitcheck-landing), [`klear-karma-website-v2`](https://github.com/Sheshiyer/klear-karma-website-v2), [`kkv2-astro-wiki`](https://github.com/Sheshiyer/kkv2-astro-wiki), [`tirakplus`](https://github.com/Sheshiyer/tirakplus) | Consent, verification, cultural context, and onboarding are part of product architecture. |
+| Narrative archives | 21 | [`synchronocities-blog`](https://github.com/Sheshiyer/synchronocities-blog), [`somatic-canticles-bm-wiki`](https://github.com/Sheshiyer/somatic-canticles-bm-wiki), [`wtfmedia`](https://github.com/Sheshiyer/wtfmedia), [`somatic-canticles-v3-book-trilogy`](https://github.com/Sheshiyer/somatic-canticles-v3-book-trilogy) | Story, research, media, and ritual are structured as navigable systems. |
+| Toolmaking | 99 | [`motionsites-skills`](https://github.com/Sheshiyer/motionsites-skills), [`plexus-ts`](https://github.com/Sheshiyer/plexus-ts), [`framer-plugin-mcp`](https://github.com/Sheshiyer/framer-plugin-mcp), [`skill-clusters`](https://github.com/Sheshiyer/skill-clusters) | Expert workflows become portable tools without flattening the expert practice. |
 
-## Recently active public work
+## Recent public movement
 
-| Repository | Language | Focus |
-| --- | --- | --- |
-| [`motionsites-skills`](https://github.com/Sheshiyer/motionsites-skills) | HTML | Prompt-template library and rate-limited incremental fetcher for MotionSites.ai research. |
-| [`fitcheck-landing`](https://github.com/Sheshiyer/fitcheck-landing) | TypeScript | AI virtual try-on launch surface for Shopify fashion brands. |
-| [`cambium`](https://github.com/Sheshiyer/cambium) | TypeScript | Autonomous, on-brand venture operator for the brandmint and skill-cluster constellation. |
-| [`synchronocities-blog`](https://github.com/Sheshiyer/synchronocities-blog) | TypeScript | Depth-scrolling Thailand narrative built as a tarot-gallery reading experience. |
-| [`plexus-ts`](https://github.com/Sheshiyer/plexus-ts) | TypeScript | Thoughtseed member runtime spanning listener, runner, state, and bridge client. |
-| [`temperance_engine`](https://github.com/Sheshiyer/temperance_engine) | Shell | Local-first operator runtime with skill routing and codegraph-first search. |
-| [`snow-gloves-os`](https://github.com/Sheshiyer/snow-gloves-os) | Shell | Business-operations orchestration with connectors, interpretation, and agent workflows. |
-| [`Selemene-engine`](https://github.com/Sheshiyer/Selemene-engine) | Rust | Reflection-first consciousness engine with symbolic mirrors and synthesis workflows. |
+| Repository | Field | Language | Focus |
+| --- | --- | --- | --- |
+| [`cambium`](https://github.com/Sheshiyer/cambium) | Venture operations | TypeScript | Cambium - the autonomous, on-brand venture operator. Free build, paid taste. Umbrella for the brandmint... |
+| [`motionsites-skills`](https://github.com/Sheshiyer/motionsites-skills) | Toolmaking | HTML | Catalogued MotionSites.ai prompt-template library (265 templates) + a rate-limited, resumable... |
+| [`fitcheck-landing`](https://github.com/Sheshiyer/fitcheck-landing) | Trust surfaces | TypeScript | Fitcheck - AI virtual try-on launch landing for Shopify fashion brands. Zero-dep static site... |
+| [`synchronocities-blog`](https://github.com/Sheshiyer/synchronocities-blog) | Narrative archives | TypeScript | A 55-day mythic journey through Thailand told as a depth-scrolling tarot gallery. 20 unique card... |
+| [`plexus-ts`](https://github.com/Sheshiyer/plexus-ts) | Toolmaking | TypeScript | Plexus - Thoughtseed member runtime (Listener/Runner/State + bridge client). Electron app per... |
+| [`framer-plugin-mcp`](https://github.com/Sheshiyer/framer-plugin-mcp) | Toolmaking | JavaScript | A Model Context Protocol (MCP) server for creating and managing Framer plugins with web3 capabilities |
+| [`temperance_engine`](https://github.com/Sheshiyer/temperance_engine) | Venture operations | Shell | Public installer for a local PAI operator runtime with skill-cluster routing, optional peon-ping voice... |
+| [`snow-gloves-os`](https://github.com/Sheshiyer/snow-gloves-os) | Venture operations | Shell | Snow Gloves OS - hand-in-glove business operations orchestration with connectors, interpretation, and... |
 
 <details>
 <summary><b>Public language profile</b></summary>
@@ -70,14 +71,18 @@ That substrate appears across venture operators, brand foundries, local agent ru
 | TypeScript | 71 |
 | JavaScript | 22 |
 | Python | 20 |
-| Unspecified or mixed | 19 |
+| Unspecified | 19 |
 | HTML | 13 |
 | Astro | 9 |
 | Shell | 7 |
 | CSS | 4 |
-| Liquid, MDX, Mermaid, Ruby, Rust | 5 |
+| Rust | 1 |
+| MDX | 1 |
+| Ruby | 1 |
+| Mermaid | 1 |
 
 </details>
+<!-- public-work-index:end -->
 
 <img src="assets/divider.svg" width="100%" alt="section divider" />
 

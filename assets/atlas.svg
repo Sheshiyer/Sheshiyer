@@ -14,69 +14,51 @@
   <rect width="1200" height="760" rx="30" fill="url(#paper)"/>
   <rect x="28" y="28" width="1144" height="704" rx="22" fill="none" stroke="#18181B" stroke-opacity="0.12"/>
 
-  <text class="mono" x="72" y="78" fill="#7A6139" font-size="13">PUBLIC WORK INDEX</text>
+  <text class="mono" x="72" y="78" fill="#7A6139" font-size="13">PUBLIC WORK INDEX / WEEKLY METADATA SNAPSHOT</text>
   <text class="title" x="72" y="124" fill="#18181B" font-size="42">170 public repositories across six operating fields.</text>
-  <text class="body" x="72" y="158" fill="#52525B" font-size="18">The pattern is visible in the repeated joins: brand to runtime, runtime to interface, interface to archive.</text>
+  <text class="body" x="72" y="158" fill="#52525B" font-size="18">A weekly metadata snapshot folded into a static field index.</text>
+  <rect x="72" y="198" width="1056" height="1" fill="#18181B" fill-opacity="0.16"/>
 
-  <g transform="translate(72 214)">
-    <rect x="0" y="0" width="1056" height="1" fill="#18181B" fill-opacity="0.16"/>
-
-    <g transform="translate(0 34)">
-      <text class="mono" x="0" y="0" fill="#18181B" font-size="13">VENTURE OPS</text>
-      <text class="body" x="0" y="28" fill="#52525B" font-size="15">cambium / brandmint / meristem / snow gloves</text>
-      <rect x="520" y="-16" width="356" height="12" rx="6" fill="#18181B" fill-opacity="0.76"/>
-      <rect x="892" y="-16" width="80" height="12" rx="6" fill="#B08D57" fill-opacity="0.74"/>
-      <text class="mono" x="1004" y="-5" fill="#7A6139" font-size="12">taste + execution</text>
+    <g transform="translate(0 240)">
+      <text class="mono" x="72" y="0" fill="#18181B" font-size="13">VENTURE OPS</text>
+      <text class="body" x="72" y="28" fill="#52525B" font-size="15">Taste, planning, execution, and review are treated as one operating loop.</text>
+      <rect x="640" y="-16" width="152" height="12" rx="6" fill="#18181B" fill-opacity="0.62"/>
+      <rect x="808" y="-16" width="102" height="12" rx="6" fill="#B08D57" fill-opacity="0.66"/>
+      <text class="mono" x="620" y="-5" fill="#7A6139" font-size="12" text-anchor="end">12 repos</text>
     </g>
-
-    <rect x="0" y="82" width="1056" height="1" fill="#18181B" fill-opacity="0.1"/>
-
-    <g transform="translate(0 122)">
-      <text class="mono" x="0" y="0" fill="#18181B" font-size="13">REFLECTION RUNTIMES</text>
-      <text class="body" x="0" y="28" fill="#52525B" font-size="15">selemene / witness agents / noesis / tryambakam</text>
-      <rect x="520" y="-16" width="292" height="12" rx="6" fill="#18181B" fill-opacity="0.62"/>
-      <rect x="828" y="-16" width="122" height="12" rx="6" fill="#B08D57" fill-opacity="0.68"/>
-      <text class="mono" x="1004" y="-5" fill="#7A6139" font-size="12">symbolic systems</text>
+    <g transform="translate(0 322)">
+      <text class="mono" x="72" y="0" fill="#18181B" font-size="13">REFLECTION</text>
+      <text class="body" x="72" y="28" fill="#52525B" font-size="15">Symbolic and contemplative systems are implemented as inspectable runtimes.</text>
+      <rect x="640" y="-16" width="157" height="12" rx="6" fill="#18181B" fill-opacity="0.62"/>
+      <rect x="813" y="-16" width="84" height="12" rx="6" fill="#B08D57" fill-opacity="0.66"/>
+      <text class="mono" x="620" y="-5" fill="#7A6139" font-size="12" text-anchor="end">14 repos</text>
     </g>
-
-    <rect x="0" y="170" width="1056" height="1" fill="#18181B" fill-opacity="0.1"/>
-
-    <g transform="translate(0 210)">
-      <text class="mono" x="0" y="0" fill="#18181B" font-size="13">SPATIAL SYSTEMS</text>
-      <text class="body" x="0" y="28" fill="#52525B" font-size="15">vantyx / marina / panoramas / property viewers</text>
-      <rect x="520" y="-16" width="248" height="12" rx="6" fill="#18181B" fill-opacity="0.52"/>
-      <rect x="784" y="-16" width="150" height="12" rx="6" fill="#B08D57" fill-opacity="0.56"/>
-      <text class="mono" x="1004" y="-5" fill="#7A6139" font-size="12">place as UI</text>
+    <g transform="translate(0 404)">
+      <text class="mono" x="72" y="0" fill="#18181B" font-size="13">SPATIAL</text>
+      <text class="body" x="72" y="28" fill="#52525B" font-size="15">Place, panorama, and property experiences carry their own operational backplanes.</text>
+      <rect x="640" y="-16" width="149" height="12" rx="6" fill="#18181B" fill-opacity="0.62"/>
+      <rect x="805" y="-16" width="84" height="12" rx="6" fill="#B08D57" fill-opacity="0.66"/>
+      <text class="mono" x="620" y="-5" fill="#7A6139" font-size="12" text-anchor="end">11 repos</text>
     </g>
-
-    <rect x="0" y="258" width="1056" height="1" fill="#18181B" fill-opacity="0.1"/>
-
-    <g transform="translate(0 298)">
-      <text class="mono" x="0" y="0" fill="#18181B" font-size="13">TRUST SURFACES</text>
-      <text class="body" x="0" y="28" fill="#52525B" font-size="15">fitcheck / klear karma / tirak / consent flows</text>
-      <rect x="520" y="-16" width="220" height="12" rx="6" fill="#18181B" fill-opacity="0.48"/>
-      <rect x="756" y="-16" width="132" height="12" rx="6" fill="#B08D57" fill-opacity="0.6"/>
-      <text class="mono" x="1004" y="-5" fill="#7A6139" font-size="12">verification</text>
+    <g transform="translate(0 486)">
+      <text class="mono" x="72" y="0" fill="#18181B" font-size="13">TRUST</text>
+      <text class="body" x="72" y="28" fill="#52525B" font-size="15">Consent, verification, cultural context, and onboarding are part of product architecture.</text>
+      <rect x="640" y="-16" width="154" height="12" rx="6" fill="#18181B" fill-opacity="0.62"/>
+      <rect x="810" y="-16" width="102" height="12" rx="6" fill="#B08D57" fill-opacity="0.66"/>
+      <text class="mono" x="620" y="-5" fill="#7A6139" font-size="12" text-anchor="end">13 repos</text>
     </g>
-
-    <rect x="0" y="346" width="1056" height="1" fill="#18181B" fill-opacity="0.1"/>
-
-    <g transform="translate(0 386)">
-      <text class="mono" x="0" y="0" fill="#18181B" font-size="13">NARRATIVE ARCHIVES</text>
-      <text class="body" x="0" y="28" fill="#52525B" font-size="15">somatic canticles / synchronocities / wtfmedia / red rabbit hole</text>
-      <rect x="520" y="-16" width="204" height="12" rx="6" fill="#18181B" fill-opacity="0.42"/>
-      <rect x="740" y="-16" width="116" height="12" rx="6" fill="#B08D57" fill-opacity="0.52"/>
-      <text class="mono" x="1004" y="-5" fill="#7A6139" font-size="12">memory systems</text>
+    <g transform="translate(0 568)">
+      <text class="mono" x="72" y="0" fill="#18181B" font-size="13">NARRATIVE</text>
+      <text class="body" x="72" y="28" fill="#52525B" font-size="15">Story, research, media, and ritual are structured as navigable systems.</text>
+      <rect x="640" y="-16" width="175" height="12" rx="6" fill="#18181B" fill-opacity="0.62"/>
+      <rect x="831" y="-16" width="138" height="12" rx="6" fill="#B08D57" fill-opacity="0.66"/>
+      <text class="mono" x="620" y="-5" fill="#7A6139" font-size="12" text-anchor="end">21 repos</text>
     </g>
-
-    <rect x="0" y="434" width="1056" height="1" fill="#18181B" fill-opacity="0.1"/>
-
-    <g transform="translate(0 474)">
-      <text class="mono" x="0" y="0" fill="#18181B" font-size="13">TOOLMAKING</text>
-      <text class="body" x="0" y="28" fill="#52525B" font-size="15">skills / raycast / mcp / headshot suite / orchestrators</text>
-      <rect x="520" y="-16" width="276" height="12" rx="6" fill="#18181B" fill-opacity="0.58"/>
-      <rect x="812" y="-16" width="118" height="12" rx="6" fill="#B08D57" fill-opacity="0.58"/>
-      <text class="mono" x="1004" y="-5" fill="#7A6139" font-size="12">portable craft</text>
+    <g transform="translate(0 650)">
+      <text class="mono" x="72" y="0" fill="#18181B" font-size="13">TOOLS</text>
+      <text class="body" x="72" y="28" fill="#52525B" font-size="15">Expert workflows become portable tools without flattening the expert practice.</text>
+      <rect x="640" y="-16" width="380" height="12" rx="6" fill="#18181B" fill-opacity="0.62"/>
+      <rect x="1036" y="-16" width="138" height="12" rx="6" fill="#B08D57" fill-opacity="0.66"/>
+      <text class="mono" x="620" y="-5" fill="#7A6139" font-size="12" text-anchor="end">99 repos</text>
     </g>
-  </g>
 </svg>
