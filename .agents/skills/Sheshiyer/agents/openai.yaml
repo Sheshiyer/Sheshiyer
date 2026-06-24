@@ -1,0 +1,6 @@
+interface:
+  display_name: "Sheshiyer"
+  short_description: "Repo-specific patterns and workflows for Sheshiyer"
+  default_prompt: "Use the Sheshiyer repo skill to follow existing architecture, testing, and workflow conventions."
+policy:
+  allow_implicit_invocation: true
