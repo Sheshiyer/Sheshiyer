@@ -1,147 +1,121 @@
-<p align="center">
-  <img src="assets/banner.svg" alt="Mage Narayan — Witness Alchemist @ Thoughtseed Labs" width="100%"/>
-</p>
+<img src="assets/banner.svg" alt="Mage Narayan - Witness Alchemist at Thoughtseed Labs" width="100%" />
 
-<img src="assets/divider.svg" width="100%" alt="divider"/>
+<img src="assets/divider.svg" width="100%" alt="section divider" />
 
-## `> whoami`
+# Mage Narayan
 
-I build systems that treat awareness as architecture. Not metaphor — infrastructure. Every tool I ship maps inner process to outer structure: breath to build pipeline, body to interface protocol, consciousness to computational engine. This is the work at [Thoughtseed Labs](https://github.com/thoughtseed-labs) — grounded in practice, verified in code, silent where it doesn't need to speak.
+**Witness Alchemist at Thoughtseed Labs.** I build operator systems, ritual interfaces, and venture tooling that make inner process concrete enough to ship.
 
-<img src="assets/divider.svg" width="100%" alt="divider"/>
-
-## Selected Works
+I keep a wide public lab: **170 public non-fork repositories reviewed**, led by TypeScript, Python, JavaScript, Astro, Shell, and Rust. The work clusters around one question: how do taste, embodiment, and autonomous execution become infrastructure?
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="58%" valign="top">
 
-### [`brandmint-oracle-aleph`](https://github.com/Sheshiyer/brandmint-oracle-aleph)
-![Python](https://img.shields.io/badge/Python-070B1D?style=for-the-badge&logo=python&logoColor=C5A017)
+### Field note
 
-End-to-end brand identity orchestration. 44 skills, deterministic pipeline from voice to visual to deployment. The system that builds brands the way bodies build tissue — layered, adaptive, alive.
-
-</td>
-<td width="50%" valign="top">
-
-### [`Selemene-engine`](https://github.com/Sheshiyer/Selemene-engine)
-![Rust](https://img.shields.io/badge/Rust-070B1D?style=for-the-badge&logo=rust&logoColor=10B5A7)
-
-Reflection-first consciousness engine with 16 symbolic mirrors. Consciousness mapped to computation — not simulated, structured.
+This README is designed as a public operating atlas, not a trophy case. The useful question is not "what have I built?" but "which systems keep reappearing across the work?"
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td width="42%" valign="top">
 
-### [`velvetclaw`](https://github.com/Sheshiyer/velvetclaw)
-![Shell](https://img.shields.io/badge/Shell-070B1D?style=for-the-badge&logo=gnubash&logoColor=0B50FB)
+### Current edge
 
-Declarative multi-agent org for OpenClaw. Self-assembling agent architecture — agents that organize themselves the way organisms differentiate.
-
-</td>
-<td width="50%" valign="top">
-
-### [`vscode-noesis-bioluminescent-theme`](https://github.com/Sheshiyer/vscode-noesis-bioluminescent-theme)
-![TypeScript](https://img.shields.io/badge/TypeScript-070B1D?style=for-the-badge&logo=typescript&logoColor=0B50FB)
-
-The brand rendered as development environment. Void Black canvas, sacred geometry color logic, bioluminescent accents. You code inside the aesthetic.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [`reddit-flux`](https://github.com/Sheshiyer/reddit-flux) · [`glam-cli`](https://github.com/Sheshiyer/glam-cli)
-![Python](https://img.shields.io/badge/Python-070B1D?style=for-the-badge&logo=python&logoColor=C5A017)
-
-Developer CLI tools. Reddit reads and Instagram automation — deterministic, scriptable, no GUI required.
-
-</td>
-<td width="50%" valign="top">
-
-### [`readme-skill`](https://github.com/Sheshiyer/readme-skill)
-![Shell](https://img.shields.io/badge/Shell-070B1D?style=for-the-badge&logo=gnubash&logoColor=0B50FB)
-
-Auto-generate modern READMEs by scanning your repo. The tool that writes the page you're reading.
+Agentic product systems, spatial interfaces, brand orchestration, symbolic runtimes, and local-first operator tools.
 
 </td>
 </tr>
 </table>
 
-<img src="assets/divider.svg" width="100%" alt="divider"/>
+<img src="assets/divider.svg" width="100%" alt="section divider" />
+
+## Operating thesis
+
+Most software ships only the outer surface. I am interested in the missing layer: the system that turns intention into procedure, procedure into interface, and interface into repeatable work.
+
+That shows up as venture operators, brand foundries, local agent runtimes, spatial real-estate systems, narrative engines, healing-marketplace tools, and reflection-first computing experiments. The public repositories are not isolated demos; they are organs in a larger operating body.
+
+<img src="assets/atlas.svg" alt="Public repository atlas organized by venture operations, reflection runtimes, spatial interfaces, commerce trust, narrative archives, and tool surfaces" width="100%" />
+
+## How to read the atlas
+
+The public surface is arranged as six overlapping fields. Each field contains a few anchor repositories, but the point is the connective tissue: brand systems become operator tools, operator tools become interfaces, interfaces become archives, archives become new runtimes.
+
+## Repository map
+
+| Domain | Representative repositories | What the work proves |
+| --- | --- | --- |
+| Agentic venture operations | [`cambium`](https://github.com/Sheshiyer/cambium), [`brandmint-oracle-aleph`](https://github.com/Sheshiyer/brandmint-oracle-aleph), [`meristem`](https://github.com/Sheshiyer/meristem), [`skill-clusters`](https://github.com/Sheshiyer/skill-clusters), [`snow-gloves-os`](https://github.com/Sheshiyer/snow-gloves-os), [`team-forge-ts`](https://github.com/Sheshiyer/team-forge-ts) | Systems can coordinate taste, planning, brand, execution, and review without collapsing into generic automation. |
+| Consciousness and reflection runtimes | [`Selemene-engine`](https://github.com/Sheshiyer/Selemene-engine), [`witness-agents`](https://github.com/Sheshiyer/witness-agents), [`noesis`](https://github.com/Sheshiyer/noesis), [`tryambakam-space`](https://github.com/Sheshiyer/tryambakam-space), [`tryambakam-noesis-paperclip`](https://github.com/Sheshiyer/tryambakam-noesis-paperclip), [`samsclawra`](https://github.com/Sheshiyer/samsclawra) | Symbolic systems can be implemented as inspectable runtimes, not just written about as metaphors. |
+| Spatial and real-estate interfaces | [`vantyx`](https://github.com/Sheshiyer/vantyx), [`marina1-k`](https://github.com/Sheshiyer/marina1-k), [`president-panaroma`](https://github.com/Sheshiyer/president-panaroma), [`marina-one-v2-preview`](https://github.com/Sheshiyer/marina-one-v2-preview), [`parkarea-aleph`](https://github.com/Sheshiyer/parkarea-aleph), [`Insightreality`](https://github.com/Sheshiyer/Insightreality) | Property, panorama, and tour experiences need operational backplanes, not only polished viewers. |
+| Commerce, trust, and local discovery | [`fitcheck-landing`](https://github.com/Sheshiyer/fitcheck-landing), [`HDILINT-backend-aleph`](https://github.com/Sheshiyer/HDILINT-backend-aleph), [`virtualtryon`](https://github.com/Sheshiyer/virtualtryon), [`klear-karma`](https://github.com/Sheshiyer/klear-karma), [`klear-karma-website-v2`](https://github.com/Sheshiyer/klear-karma-website-v2), [`tirakplus`](https://github.com/Sheshiyer/tirakplus) | Trust is a product surface: consent, verification, cultural context, and careful onboarding are part of the architecture. |
+| Narrative, media, and archives | [`synchronocities-blog`](https://github.com/Sheshiyer/synchronocities-blog), [`Somatic-Canticles`](https://github.com/Sheshiyer/Somatic-Canticles), [`somatic-canticles-bm-wiki`](https://github.com/Sheshiyer/somatic-canticles-bm-wiki), [`wtfmedia`](https://github.com/Sheshiyer/wtfmedia), [`red-rabbit-hole`](https://github.com/Sheshiyer/red-rabbit-hole), [`tpothp`](https://github.com/Sheshiyer/tpothp) | Story systems can hold research, media, ritual, and product logic in one navigable form. |
+| Skills, tools, and developer surfaces | [`motionsites-skills`](https://github.com/Sheshiyer/motionsites-skills), [`professional-headshot-suite`](https://github.com/Sheshiyer/professional-headshot-suite), [`explee-skills`](https://github.com/Sheshiyer/explee-skills), [`github-next-wave-orchestrator`](https://github.com/Sheshiyer/github-next-wave-orchestrator), [`swarm-architect-skill`](https://github.com/Sheshiyer/swarm-architect-skill), [`raycast-extensions`](https://github.com/Sheshiyer/raycast-extensions) | The best tools make expert workflows portable without flattening the expert. |
+
+## Recently active public work
+
+| Repository | Language | Focus |
+| --- | --- | --- |
+| [`motionsites-skills`](https://github.com/Sheshiyer/motionsites-skills) | HTML | Prompt-template library and rate-limited incremental fetcher for MotionSites.ai research. |
+| [`fitcheck-landing`](https://github.com/Sheshiyer/fitcheck-landing) | TypeScript | AI virtual try-on launch surface for Shopify fashion brands. |
+| [`cambium`](https://github.com/Sheshiyer/cambium) | TypeScript | Autonomous, on-brand venture operator for the brandmint and skill-cluster constellation. |
+| [`synchronocities-blog`](https://github.com/Sheshiyer/synchronocities-blog) | TypeScript | Depth-scrolling Thailand narrative built as a tarot-gallery reading experience. |
+| [`plexus-ts`](https://github.com/Sheshiyer/plexus-ts) | TypeScript | Thoughtseed member runtime spanning listener, runner, state, and bridge client. |
+| [`temperance_engine`](https://github.com/Sheshiyer/temperance_engine) | Shell | Local-first operator runtime with skill routing and codegraph-first search. |
+| [`snow-gloves-os`](https://github.com/Sheshiyer/snow-gloves-os) | Shell | Business-operations orchestration with connectors, interpretation, and agent workflows. |
+| [`Selemene-engine`](https://github.com/Sheshiyer/Selemene-engine) | Rust | Reflection-first consciousness engine with symbolic mirrors and synthesis workflows. |
 
 <details>
-<summary><b>More Projects</b></summary>
-<br/>
+<summary><b>Public language profile</b></summary>
+<br />
 
-| Project | Language | Description |
-|---------|----------|-------------|
-| [`10865xseed`](https://github.com/Sheshiyer/10865xseed) | Python | prana.init |
-| [`14113-X-vault`](https://github.com/Sheshiyer/14113-X-vault) | JavaScript | ENNEA + PARA + MUSES |
-| [`tirak-website-v1`](https://github.com/Sheshiyer/tirak-website-v1) | TypeScript | Tirak web platform |
-| [`SomaticCanticles-aleph0.1`](https://github.com/Sheshiyer/SomaticCanticles-aleph0.1) | TypeScript | Somatic Canticles engine |
-| [`kristudios-wiki`](https://github.com/Sheshiyer/kristudios-wiki) | Astro | Knowledge wiki |
-| [`spatial-anubis-noesis`](https://github.com/Sheshiyer/spatial-anubis-noesis) | TypeScript | Spatial computing prototype |
-| [`framer-plugin-mcp`](https://github.com/Sheshiyer/framer-plugin-mcp) | JavaScript | MCP server for Framer |
-| [`homebrew-brandmint`](https://github.com/Sheshiyer/homebrew-brandmint) | Ruby | Homebrew tap for Brandmint |
-| [`brandmint-showcase`](https://github.com/Sheshiyer/brandmint-showcase) | HTML | Brandmint demo site |
+| Language | Public non-fork repositories |
+| --- | ---: |
+| TypeScript | 71 |
+| JavaScript | 22 |
+| Python | 20 |
+| Unspecified or mixed | 19 |
+| HTML | 13 |
+| Astro | 9 |
+| Shell | 7 |
+| CSS | 4 |
+| Liquid, MDX, Mermaid, Ruby, Rust | 5 |
 
 </details>
 
-<img src="assets/divider.svg" width="100%" alt="divider"/>
+<img src="assets/divider.svg" width="100%" alt="section divider" />
 
-## Stack
+## Build principles
 
-<p align="center">
+| Principle | How it shows up |
+| --- | --- |
+| Taste is operational | Brand, interface, copy, and workflow are treated as one system. |
+| Reflection before prediction | Tools should expose assumptions, traces, and choice points before they automate. |
+| Local-first where possible | Operator tools should keep secrets, context, and agency close to the user. |
+| Interfaces carry ritual | Good UI changes the rhythm of work, not only the speed of clicking. |
 
-![TypeScript](https://img.shields.io/badge/TypeScript-070B1D?style=for-the-badge&logo=typescript&logoColor=0B50FB)
-![Python](https://img.shields.io/badge/Python-070B1D?style=for-the-badge&logo=python&logoColor=C5A017)
-![Rust](https://img.shields.io/badge/Rust-070B1D?style=for-the-badge&logo=rust&logoColor=10B5A7)
-![JavaScript](https://img.shields.io/badge/JavaScript-070B1D?style=for-the-badge&logo=javascript&logoColor=C5A017)
-![Shell](https://img.shields.io/badge/Shell-070B1D?style=for-the-badge&logo=gnubash&logoColor=0B50FB)
+## Stack and surfaces
 
-![Astro](https://img.shields.io/badge/Astro-070B1D?style=for-the-badge&logo=astro&logoColor=10B5A7)
-![React](https://img.shields.io/badge/React-070B1D?style=for-the-badge&logo=react&logoColor=0B50FB)
-![Node.js](https://img.shields.io/badge/Node.js-070B1D?style=for-the-badge&logo=node.js&logoColor=10B5A7)
-![Bun](https://img.shields.io/badge/Bun-070B1D?style=for-the-badge&logo=bun&logoColor=F0EDE3)
-
-![Claude Code](https://img.shields.io/badge/Claude_Code-070B1D?style=for-the-badge&logo=anthropic&logoColor=C5A017)
-![FAL.AI](https://img.shields.io/badge/FAL.AI-070B1D?style=for-the-badge&logoColor=10B5A7)
-![Framer](https://img.shields.io/badge/Framer-070B1D?style=for-the-badge&logo=framer&logoColor=0B50FB)
-![VS Code](https://img.shields.io/badge/VS_Code-070B1D?style=for-the-badge&logo=visualstudiocode&logoColor=0B50FB)
-
+<p>
+  <img src="https://img.shields.io/badge/TypeScript-18181B?style=for-the-badge&logo=typescript&logoColor=B08D57" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Python-18181B?style=for-the-badge&logo=python&logoColor=B08D57" alt="Python" />
+  <img src="https://img.shields.io/badge/Rust-18181B?style=for-the-badge&logo=rust&logoColor=B08D57" alt="Rust" />
+  <img src="https://img.shields.io/badge/Astro-18181B?style=for-the-badge&logo=astro&logoColor=B08D57" alt="Astro" />
+  <img src="https://img.shields.io/badge/React-18181B?style=for-the-badge&logo=react&logoColor=B08D57" alt="React" />
+  <img src="https://img.shields.io/badge/Cloudflare-18181B?style=for-the-badge&logo=cloudflare&logoColor=B08D57" alt="Cloudflare" />
+  <img src="https://img.shields.io/badge/Electron-18181B?style=for-the-badge&logo=electron&logoColor=B08D57" alt="Electron" />
+  <img src="https://img.shields.io/badge/Raycast-18181B?style=for-the-badge&logo=raycast&logoColor=B08D57" alt="Raycast" />
 </p>
 
-<img src="assets/divider.svg" width="100%" alt="divider"/>
+## Public signal
 
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Sheshiyer&show_icons=true&bg_color=35,070B1D,2D0050&title_color=C5A017&text_color=F0EDE3&icon_color=10B5A7&hide_border=true&count_private=true" alt="GitHub Stats" height="180"/>
-  &nbsp;&nbsp;
-  <img src="https://streak-stats.demolab.com?user=Sheshiyer&background=070B1D&ring=0B50FB&fire=C5A017&currStreakLabel=C5A017&sideLabels=F0EDE3&currStreakNum=F0EDE3&dates=F0EDE3&sideNums=10B5A7&stroke=2D0050&hide_border=true" alt="GitHub Streak" height="180"/>
+<p>
+  <a href="https://thoughtseed.com"><img src="https://img.shields.io/badge/Thoughtseed-18181B?style=for-the-badge&logo=safari&logoColor=B08D57" alt="Thoughtseed" /></a>
+  <a href="https://x.com/MageNarayan"><img src="https://img.shields.io/badge/@MageNarayan-18181B?style=for-the-badge&logo=x&logoColor=B08D57" alt="@MageNarayan on X" /></a>
+  <a href="mailto:shesh@thoughtseed.com"><img src="https://img.shields.io/badge/Email-18181B?style=for-the-badge&logo=gmail&logoColor=B08D57" alt="Email" /></a>
+  <a href="https://github.com/thoughtseed-labs"><img src="https://img.shields.io/badge/Thoughtseed_Labs-18181B?style=for-the-badge&logo=github&logoColor=B08D57" alt="Thoughtseed Labs" /></a>
 </p>
 
-<img src="assets/divider.svg" width="100%" alt="divider"/>
+<img src="assets/divider.svg" width="100%" alt="section divider" />
 
-## Signal
-
-<p align="center">
-
-[![Website](https://img.shields.io/badge/Website-070B1D?style=for-the-badge&logo=safari&logoColor=C5A017)](https://thoughtseed.com)
-[![X](https://img.shields.io/badge/@MageNarayan-070B1D?style=for-the-badge&logo=x&logoColor=F0EDE3)](https://x.com/MageNarayan)
-[![Email](https://img.shields.io/badge/Email-070B1D?style=for-the-badge&logo=gmail&logoColor=10B5A7)](mailto:shesh@thoughtseed.com)
-[![Thoughtseed Labs](https://img.shields.io/badge/Thoughtseed_Labs-070B1D?style=for-the-badge&logo=github&logoColor=0B50FB)](https://github.com/thoughtseed-labs)
-
-</p>
-
-<img src="assets/divider.svg" width="100%" alt="divider"/>
-
-<p align="center">
-  <sub><i>"Structure reveals what noise obscures."</i></sub>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Sheshiyer&label=observers&color=0B50FB&style=flat-square" alt="Profile views"/>
-</p>
+<sub><i>"Structure reveals what noise obscures."</i></sub>
