@@ -1,25 +1,37 @@
 <img src="assets/banner.svg" alt="Mage Narayan - Witness Alchemist at Thoughtseed Labs" width="100%" />
 
+<p align="center">
+  <a href="#through-line">Through-line</a>
+  &nbsp;/&nbsp;
+  <a href="#public-work-index">Public work index</a>
+  &nbsp;/&nbsp;
+  <a href="#recent-public-movement">Recent movement</a>
+  &nbsp;/&nbsp;
+  <a href="#build-principles">Build principles</a>
+  &nbsp;/&nbsp;
+  <a href="#public-signal">Signal</a>
+</p>
+
 <img src="assets/divider.svg" width="100%" alt="section divider" />
 
 # Mage Narayan
 
-**Witness Alchemist at Thoughtseed Labs.** Operator systems, ritual interfaces, and venture tooling for embodied execution.
+**Witness Alchemist at Thoughtseed Labs.** Systems for turning inner process into runnable outer structure.
 
-Public work spans **170 non-fork repositories**, led by TypeScript, Python, JavaScript, Astro, Shell, and Rust. The through-line is practical: turn taste, embodiment, and autonomous execution into systems that can be inspected, run, and improved.
+Public work spans **170 non-fork repositories**, led by TypeScript, Python, JavaScript, Astro, Shell, and Rust. The work moves between agentic operations, symbolic runtimes, spatial interfaces, trust surfaces, narrative archives, and small tools that make expert practice portable.
 
 <table>
 <tr>
 <td width="58%" valign="top">
 
-### Operating focus
+### Practice
 
-Agentic product systems, spatial interfaces, brand orchestration, symbolic runtimes, and local-first operator tools.
+Agentic product systems, brand orchestration, local operator runtimes, spatial viewers, and reflection-first computing.
 
 </td>
 <td width="42%" valign="top">
 
-### Recurring materials
+### Materials
 
 TypeScript, React, Astro, Python, Rust, Cloudflare, Electron, Tauri, Raycast, shell automation.
 
@@ -31,9 +43,9 @@ TypeScript, React, Astro, Python, Rust, Cloudflare, Electron, Tauri, Raycast, sh
 
 ## Through-line
 
-Most software ships the outer surface. The missing layer is the operating substrate: intention becomes procedure, procedure becomes interface, and interface becomes repeatable work.
+Most software ships the outer surface. The harder work is the substrate underneath: intention becoming procedure, procedure becoming interface, interface becoming repeatable work.
 
-That substrate appears across venture operators, brand foundries, local agent runtimes, spatial real-estate systems, narrative engines, healing-marketplace tools, and reflection-first computing experiments.
+That substrate appears here as venture operators, brand foundries, local agent runtimes, spatial real-estate systems, narrative engines, healing-marketplace tools, and reflection-first computing experiments.
 
 <img src="assets/atlas.svg" alt="Public work index organized by venture operations, reflection runtimes, spatial systems, trust surfaces, narrative archives, and toolmaking" width="100%" />
 
@@ -42,12 +54,12 @@ That substrate appears across venture operators, brand foundries, local agent ru
 
 | Field | Public repos | Recent anchors | Pattern |
 | --- | ---: | --- | --- |
-| Venture operations | 12 | [`cambium`](https://github.com/Sheshiyer/cambium), [`temperance_engine`](https://github.com/Sheshiyer/temperance_engine), [`snow-gloves-os`](https://github.com/Sheshiyer/snow-gloves-os), [`brandmint-oracle-aleph`](https://github.com/Sheshiyer/brandmint-oracle-aleph) | Taste, planning, execution, and review are treated as one operating loop. |
-| Reflection runtimes | 14 | [`tpothp`](https://github.com/Sheshiyer/tpothp), [`Selemene-engine`](https://github.com/Sheshiyer/Selemene-engine), [`witness-agents`](https://github.com/Sheshiyer/witness-agents), [`witness-agents-113`](https://github.com/Sheshiyer/witness-agents-113) | Symbolic and contemplative systems are implemented as inspectable runtimes. |
-| Spatial systems | 11 | [`vantyx`](https://github.com/Sheshiyer/vantyx), [`marina1-k`](https://github.com/Sheshiyer/marina1-k), [`newsense-spatial`](https://github.com/Sheshiyer/newsense-spatial), [`dashboard-0.1-coproperty`](https://github.com/Sheshiyer/dashboard-0.1-coproperty) | Place, panorama, and property experiences carry their own operational backplanes. |
-| Trust surfaces | 13 | [`fitcheck-landing`](https://github.com/Sheshiyer/fitcheck-landing), [`klear-karma-website-v2`](https://github.com/Sheshiyer/klear-karma-website-v2), [`kkv2-astro-wiki`](https://github.com/Sheshiyer/kkv2-astro-wiki), [`tirakplus`](https://github.com/Sheshiyer/tirakplus) | Consent, verification, cultural context, and onboarding are part of product architecture. |
-| Narrative archives | 21 | [`synchronocities-blog`](https://github.com/Sheshiyer/synchronocities-blog), [`somatic-canticles-bm-wiki`](https://github.com/Sheshiyer/somatic-canticles-bm-wiki), [`wtfmedia`](https://github.com/Sheshiyer/wtfmedia), [`somatic-canticles-v3-book-trilogy`](https://github.com/Sheshiyer/somatic-canticles-v3-book-trilogy) | Story, research, media, and ritual are structured as navigable systems. |
-| Toolmaking | 99 | [`motionsites-skills`](https://github.com/Sheshiyer/motionsites-skills), [`plexus-ts`](https://github.com/Sheshiyer/plexus-ts), [`framer-plugin-mcp`](https://github.com/Sheshiyer/framer-plugin-mcp), [`skill-clusters`](https://github.com/Sheshiyer/skill-clusters) | Expert workflows become portable tools without flattening the expert practice. |
+| Venture operations | 12 | [`cambium`](https://github.com/Sheshiyer/cambium), [`temperance_engine`](https://github.com/Sheshiyer/temperance_engine), [`snow-gloves-os`](https://github.com/Sheshiyer/snow-gloves-os), [`brandmint-oracle-aleph`](https://github.com/Sheshiyer/brandmint-oracle-aleph) | Taste, planning, execution, and review stay in the same loop. |
+| Reflection runtimes | 14 | [`tpothp`](https://github.com/Sheshiyer/tpothp), [`Selemene-engine`](https://github.com/Sheshiyer/Selemene-engine), [`witness-agents`](https://github.com/Sheshiyer/witness-agents), [`witness-agents-113`](https://github.com/Sheshiyer/witness-agents-113) | Symbolic work is kept runnable, inspectable, and grounded in code. |
+| Spatial systems | 11 | [`vantyx`](https://github.com/Sheshiyer/vantyx), [`marina1-k`](https://github.com/Sheshiyer/marina1-k), [`newsense-spatial`](https://github.com/Sheshiyer/newsense-spatial), [`dashboard-0.1-coproperty`](https://github.com/Sheshiyer/dashboard-0.1-coproperty) | Place is treated as interface: mapped, navigable, and operational. |
+| Trust surfaces | 13 | [`fitcheck-landing`](https://github.com/Sheshiyer/fitcheck-landing), [`klear-karma-website-v2`](https://github.com/Sheshiyer/klear-karma-website-v2), [`kkv2-astro-wiki`](https://github.com/Sheshiyer/kkv2-astro-wiki), [`tirakplus`](https://github.com/Sheshiyer/tirakplus) | Trust surfaces carry consent, verification, and cultural context. |
+| Narrative archives | 21 | [`synchronocities-blog`](https://github.com/Sheshiyer/synchronocities-blog), [`somatic-canticles-bm-wiki`](https://github.com/Sheshiyer/somatic-canticles-bm-wiki), [`wtfmedia`](https://github.com/Sheshiyer/wtfmedia), [`somatic-canticles-v3-book-trilogy`](https://github.com/Sheshiyer/somatic-canticles-v3-book-trilogy) | Archives hold story, research, media, and ritual without flattening them. |
+| Toolmaking | 99 | [`motionsites-skills`](https://github.com/Sheshiyer/motionsites-skills), [`plexus-ts`](https://github.com/Sheshiyer/plexus-ts), [`framer-plugin-mcp`](https://github.com/Sheshiyer/framer-plugin-mcp), [`skill-clusters`](https://github.com/Sheshiyer/skill-clusters) | Expert workflows become portable without shaving off the practice. |
 
 ## Recent public movement
 

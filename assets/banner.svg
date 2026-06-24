@@ -1,75 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" width="1200" height="620">
   <defs>
-    <linearGradient id="surface" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#111113"/>
-      <stop offset="58%" stop-color="#18181B"/>
-      <stop offset="100%" stop-color="#27272A"/>
+    <linearGradient id="cinema-field" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0B0A"/>
+      <stop offset="56%" stop-color="#11110F"/>
+      <stop offset="100%" stop-color="#24211C"/>
     </linearGradient>
-    <linearGradient id="edge" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#B08D57" stop-opacity="0"/>
-      <stop offset="48%" stop-color="#B08D57" stop-opacity="0.72"/>
-      <stop offset="100%" stop-color="#B08D57" stop-opacity="0"/>
-    </linearGradient>
-    <radialGradient id="quiet-field" cx="74%" cy="42%" r="55%">
-      <stop offset="0%" stop-color="#B08D57" stop-opacity="0.18"/>
-      <stop offset="45%" stop-color="#B08D57" stop-opacity="0.05"/>
-      <stop offset="100%" stop-color="#B08D57" stop-opacity="0"/>
+    <radialGradient id="warm-lift" cx="78%" cy="24%" r="58%">
+      <stop offset="0%" stop-color="#DEDBC8" stop-opacity="0.16"/>
+      <stop offset="52%" stop-color="#DEDBC8" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#DEDBC8" stop-opacity="0"/>
     </radialGradient>
+    <filter id="noise" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.14"/>
+      </feComponentTransfer>
+    </filter>
     <style>
-      .display { font-family: "Geist", "Satoshi", "Avenir Next", sans-serif; font-weight: 700; letter-spacing: -1.8px; }
-      .label { font-family: "Geist Mono", "SFMono-Regular", Consolas, monospace; font-weight: 500; letter-spacing: 1.8px; }
-      .body { font-family: "Geist", "Satoshi", "Avenir Next", sans-serif; font-weight: 400; }
+      .display { font-family: "Almarai", "Geist", "Satoshi", "Avenir Next", sans-serif; font-weight: 800; letter-spacing: -0.075em; }
+      .label { font-family: "Geist Mono", "SFMono-Regular", Consolas, monospace; font-weight: 600; letter-spacing: 1.4px; }
+      .body { font-family: "Almarai", "Geist", "Satoshi", "Avenir Next", sans-serif; font-weight: 400; }
     </style>
   </defs>
 
-  <rect width="1200" height="420" rx="34" fill="url(#surface)"/>
-  <rect width="1200" height="420" rx="34" fill="url(#quiet-field)"/>
-  <rect x="24" y="24" width="1152" height="372" rx="26" fill="none" stroke="#F4F0E8" stroke-opacity="0.08"/>
-  <rect x="56" y="352" width="520" height="2" rx="1" fill="url(#edge)"/>
+  <rect width="1200" height="620" rx="34" fill="#141412"/>
+  <rect x="24" y="24" width="1152" height="572" rx="34" fill="url(#cinema-field)"/>
+  <rect x="24" y="24" width="1152" height="572" rx="34" fill="url(#warm-lift)"/>
+  <rect x="24" y="24" width="1152" height="572" rx="34" filter="url(#noise)" opacity="0.58"/>
+  <rect x="44" y="44" width="1112" height="532" rx="26" fill="none" stroke="#E1E0CC" stroke-opacity="0.11"/>
 
-  <g opacity="0.14">
-    <path d="M720 52V368" stroke="#F4F0E8" stroke-width="1"/>
-    <path d="M800 52V368" stroke="#F4F0E8" stroke-width="1"/>
-    <path d="M880 52V368" stroke="#F4F0E8" stroke-width="1"/>
-    <path d="M960 52V368" stroke="#F4F0E8" stroke-width="1"/>
-    <path d="M1040 52V368" stroke="#F4F0E8" stroke-width="1"/>
-    <path d="M656 116H1112" stroke="#F4F0E8" stroke-width="1"/>
-    <path d="M656 196H1112" stroke="#F4F0E8" stroke-width="1"/>
-    <path d="M656 276H1112" stroke="#F4F0E8" stroke-width="1"/>
+  <g transform="translate(414 24)">
+    <path d="M0 0H372Q396 0 396 24V54Q396 78 372 78H0Q-24 78 -24 54V24Q-24 0 0 0Z" fill="#0B0B0A"/>
+    <text class="label" x="24" y="47" fill="#E1E0CC" fill-opacity="0.82" font-size="12">THROUGH-LINE</text>
+    <text class="label" x="156" y="47" fill="#E1E0CC" fill-opacity="0.56" font-size="12">INDEX</text>
+    <text class="label" x="236" y="47" fill="#E1E0CC" fill-opacity="0.56" font-size="12">MOVEMENT</text>
+    <text class="label" x="340" y="47" fill="#E1E0CC" fill-opacity="0.56" font-size="12">SIGNAL</text>
   </g>
 
-  <g transform="translate(64 78)">
-    <text class="label" x="0" y="0" fill="#B08D57" font-size="15">THOUGHTSEED LABS / PUBLIC ATLAS</text>
-    <text class="display" x="0" y="76" fill="#F4F0E8" font-size="58">Mage Narayan</text>
-    <text class="body" x="2" y="126" fill="#D7D0C3" font-size="22">Witness Alchemist building operator systems, ritual interfaces,</text>
-    <text class="body" x="2" y="158" fill="#D7D0C3" font-size="22">and venture tooling for embodied execution.</text>
-    <g transform="translate(0 220)">
-      <rect x="0" y="0" width="158" height="42" rx="21" fill="#F4F0E8" fill-opacity="0.06" stroke="#F4F0E8" stroke-opacity="0.11"/>
-      <text class="label" x="22" y="27" fill="#F4F0E8" font-size="13">170 PUBLIC REPOS</text>
-      <rect x="176" y="0" width="150" height="42" rx="21" fill="#F4F0E8" fill-opacity="0.06" stroke="#F4F0E8" stroke-opacity="0.11"/>
-      <text class="label" x="198" y="27" fill="#F4F0E8" font-size="13">TYPE SYSTEMS</text>
-      <rect x="344" y="0" width="126" height="42" rx="21" fill="#F4F0E8" fill-opacity="0.06" stroke="#F4F0E8" stroke-opacity="0.11"/>
-      <text class="label" x="366" y="27" fill="#F4F0E8" font-size="13">TASTE OPS</text>
-    </g>
+  <g transform="translate(72 132)">
+    <text class="label" x="0" y="0" fill="#DEDBC8" font-size="13">WITNESS ALCHEMIST / THOUGHTSEED LABS</text>
+    <text class="body" x="0" y="44" fill="#A9A797" font-size="18">Operator systems, ritual interfaces, and venture tooling</text>
+    <text class="body" x="0" y="72" fill="#A9A797" font-size="18">for embodied execution.</text>
   </g>
 
-  <g transform="translate(704 82)">
-    <path d="M0 184C82 74 186 258 308 86" fill="none" stroke="#B08D57" stroke-width="1.5" stroke-opacity="0.72"/>
-    <path d="M24 112C108 236 214 42 360 184" fill="none" stroke="#F4F0E8" stroke-width="1" stroke-opacity="0.18"/>
-    <path d="M82 40C162 126 226 126 326 40" fill="none" stroke="#F4F0E8" stroke-width="1" stroke-opacity="0.12"/>
+  <g transform="translate(70 506)">
+    <text class="display" x="0" y="0" fill="#E1E0CC" font-size="126">Mage</text>
+    <text class="display" x="325" y="0" fill="#E1E0CC" font-size="126">Narayan</text>
+    <text class="display" x="825" y="-68" fill="#DEDBC8" font-size="42">*</text>
+  </g>
 
-    <circle cx="0" cy="184" r="8" fill="#B08D57"/>
-    <circle cx="82" cy="74" r="5" fill="#F4F0E8" fill-opacity="0.76"/>
-    <circle cx="186" cy="258" r="6" fill="#F4F0E8" fill-opacity="0.62"/>
-    <circle cx="308" cy="86" r="8" fill="#B08D57"/>
-    <circle cx="24" cy="112" r="4" fill="#F4F0E8" fill-opacity="0.54"/>
-    <circle cx="214" cy="42" r="4" fill="#F4F0E8" fill-opacity="0.54"/>
-    <circle cx="360" cy="184" r="5" fill="#F4F0E8" fill-opacity="0.66"/>
-
-    <g transform="translate(230 212)">
-      <rect x="0" y="0" width="192" height="72" rx="22" fill="#111113" fill-opacity="0.72" stroke="#F4F0E8" stroke-opacity="0.12"/>
-      <text class="label" x="20" y="30" fill="#B08D57" font-size="12">BUILD FIELD</text>
-      <text class="body" x="20" y="52" fill="#F4F0E8" font-size="16">agents / brands / space</text>
+  <g transform="translate(796 356)">
+    <text class="body" x="0" y="0" fill="#E1E0CC" font-size="20">Inner process made inspectable.</text>
+    <text class="body" x="0" y="32" fill="#A9A797" font-size="17">Public work across agentic operations,</text>
+    <text class="body" x="0" y="58" fill="#A9A797" font-size="17">symbolic runtimes, spatial interfaces,</text>
+    <text class="body" x="0" y="84" fill="#A9A797" font-size="17">trust surfaces, archives, and tools.</text>
+    <g transform="translate(0 122)">
+      <rect x="0" y="0" width="178" height="42" rx="21" fill="#DEDBC8"/>
+      <text class="label" x="24" y="27" fill="#0B0B0A" font-size="12">170 PUBLIC REPOS</text>
+      <circle cx="148" cy="21" r="14" fill="#0B0B0A"/>
+      <path d="M143 21H153M149 17L153 21L149 25" fill="none" stroke="#E1E0CC" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
   </g>
 </svg>

@@ -25,42 +25,42 @@ FIELDS = [
         "name": "Venture operations",
         "short": "VENTURE OPS",
         "keywords": ["cambium", "brand", "mint", "meristem", "team", "forge", "snow", "gloves", "operator"],
-        "pattern": "Taste, planning, execution, and review are treated as one operating loop.",
+        "pattern": "Taste, planning, execution, and review stay in the same loop.",
         "signal": "taste + execution",
     },
     {
         "name": "Reflection runtimes",
         "short": "REFLECTION",
         "keywords": ["selemene", "witness", "noesis", "tryambakam", "samsclawra", "consciousness", "symbolic"],
-        "pattern": "Symbolic and contemplative systems are implemented as inspectable runtimes.",
+        "pattern": "Symbolic work is kept runnable, inspectable, and grounded in code.",
         "signal": "symbolic systems",
     },
     {
         "name": "Spatial systems",
         "short": "SPATIAL",
         "keywords": ["spatial", "panorama", "panaroma", "marina", "viewer", "vantyx", "property", "parkarea", "reality"],
-        "pattern": "Place, panorama, and property experiences carry their own operational backplanes.",
+        "pattern": "Place is treated as interface: mapped, navigable, and operational.",
         "signal": "place as UI",
     },
     {
         "name": "Trust surfaces",
         "short": "TRUST",
         "keywords": ["fitcheck", "klear", "karma", "tirak", "tryon", "commerce", "consent", "marketplace", "verify"],
-        "pattern": "Consent, verification, cultural context, and onboarding are part of product architecture.",
+        "pattern": "Trust surfaces carry consent, verification, and cultural context.",
         "signal": "verification",
     },
     {
         "name": "Narrative archives",
         "short": "NARRATIVE",
         "keywords": ["somatic", "canticle", "synchronocities", "wtf", "media", "rabbit", "vault", "wiki", "blog", "tpothp"],
-        "pattern": "Story, research, media, and ritual are structured as navigable systems.",
+        "pattern": "Archives hold story, research, media, and ritual without flattening them.",
         "signal": "memory systems",
     },
     {
         "name": "Toolmaking",
         "short": "TOOLS",
         "keywords": ["skill", "raycast", "mcp", "orchestrator", "headshot", "extension", "cli", "homebrew", "template"],
-        "pattern": "Expert workflows become portable tools without flattening the expert practice.",
+        "pattern": "Expert workflows become portable without shaving off the practice.",
         "signal": "portable craft",
     },
 ]
@@ -264,25 +264,33 @@ def generate_svg(repos: list[dict[str, object]]) -> str:
     for field in FIELDS:
         count = by_field[field["name"]]
         ink_width = round(120 + (count / max_count) * 260)
-        gold_width = 66 + (len(field["signal"]) % 5) * 18
+        gold_width = 58 + (len(field["signal"]) % 4) * 14
         rows.append(
             f'''
     <g transform="translate(0 {y})">
-      <text class="mono" x="72" y="0" fill="#18181B" font-size="13">{svg_text(field["short"])}</text>
-      <text class="body" x="72" y="28" fill="#52525B" font-size="15">{svg_text(field["pattern"])}</text>
-      <rect x="640" y="-16" width="{ink_width}" height="12" rx="6" fill="#18181B" fill-opacity="0.62"/>
-      <rect x="{656 + ink_width}" y="-16" width="{gold_width}" height="12" rx="6" fill="#B08D57" fill-opacity="0.66"/>
-      <text class="mono" x="620" y="-5" fill="#7A6139" font-size="12" text-anchor="end">{count} repos</text>
+      <text class="mono" x="72" y="0" fill="#E1E0CC" font-size="13">{svg_text(field["short"])}</text>
+      <text class="body" x="72" y="28" fill="#A9A797" font-size="15">{svg_text(field["pattern"])}</text>
+      <rect x="640" y="-16" width="{ink_width}" height="12" rx="6" fill="#E1E0CC" fill-opacity="0.44"/>
+      <rect x="{656 + ink_width}" y="-16" width="{gold_width}" height="12" rx="6" fill="#DEDBC8" fill-opacity="0.82"/>
+      <text class="mono" x="620" y="-5" fill="#DEDBC8" font-size="12" text-anchor="end">{count} repos</text>
     </g>'''
         )
         y += 82
 
     return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
   <defs>
-    <linearGradient id="paper" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#F8F4EC"/>
-      <stop offset="100%" stop-color="#E7DED0"/>
+    <linearGradient id="field" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0C0C0B"/>
+      <stop offset="58%" stop-color="#141412"/>
+      <stop offset="100%" stop-color="#23211D"/>
     </linearGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.86" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.12"/>
+      </feComponentTransfer>
+    </filter>
     <style>
       .title {{ font-family: "Geist", "Satoshi", "Avenir Next", sans-serif; font-weight: 700; letter-spacing: -0.8px; }}
       .mono {{ font-family: "Geist Mono", "SFMono-Regular", Consolas, monospace; font-weight: 600; letter-spacing: 1px; }}
@@ -290,13 +298,14 @@ def generate_svg(repos: list[dict[str, object]]) -> str:
     </style>
   </defs>
 
-  <rect width="1200" height="760" rx="30" fill="url(#paper)"/>
-  <rect x="28" y="28" width="1144" height="704" rx="22" fill="none" stroke="#18181B" stroke-opacity="0.12"/>
+  <rect width="1200" height="760" rx="30" fill="url(#field)"/>
+  <rect width="1200" height="760" rx="30" filter="url(#grain)" opacity="0.42"/>
+  <rect x="28" y="28" width="1144" height="704" rx="22" fill="none" stroke="#E1E0CC" stroke-opacity="0.12"/>
 
-  <text class="mono" x="72" y="78" fill="#7A6139" font-size="13">PUBLIC WORK INDEX / WEEKLY METADATA SNAPSHOT</text>
-  <text class="title" x="72" y="124" fill="#18181B" font-size="42">{len(repos)} public repositories across six operating fields.</text>
-  <text class="body" x="72" y="158" fill="#52525B" font-size="18">A weekly metadata snapshot folded into a static field index.</text>
-  <rect x="72" y="198" width="1056" height="1" fill="#18181B" fill-opacity="0.16"/>
+  <text class="mono" x="72" y="78" fill="#DEDBC8" font-size="13">PUBLIC WORK INDEX / WEEKLY METADATA SNAPSHOT</text>
+  <text class="title" x="72" y="124" fill="#E1E0CC" font-size="42">{len(repos)} public repositories across six operating fields.</text>
+  <text class="body" x="72" y="158" fill="#A9A797" font-size="18">A static field index generated from public repository metadata.</text>
+  <rect x="72" y="198" width="1056" height="1" fill="#E1E0CC" fill-opacity="0.16"/>
 {''.join(rows)}
 </svg>
 '''
