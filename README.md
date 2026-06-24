@@ -1,32 +1,32 @@
-<img src="assets/banner.svg" alt="Mage Narayan - Witness Alchemist at Thoughtseed Labs" width="100%" />
+<img src="assets/banner.jpg" alt="Mage Narayan - Witness Alchemist at Thoughtseed Labs" width="100%" />
 
 <p align="center">
-  <a href="#through-line">Through-line</a>
+  <a href="#world">World</a>
   &nbsp;/&nbsp;
-  <a href="#public-work-index">Public work index</a>
+  <a href="#rooms">Rooms</a>
   &nbsp;/&nbsp;
-  <a href="#recent-public-movement">Recent movement</a>
+  <a href="#public-work-index">Index</a>
   &nbsp;/&nbsp;
-  <a href="#build-principles">Build principles</a>
+  <a href="#build-principles">Principles</a>
   &nbsp;/&nbsp;
-  <a href="#public-signal">Signal</a>
+  <a href="#public-signal">Connect</a>
 </p>
 
 <img src="assets/divider.svg" width="100%" alt="section divider" />
 
 # Mage Narayan
 
-**Witness Alchemist at Thoughtseed Labs.** Systems for turning inner process into runnable outer structure.
+**Witness Alchemist at Thoughtseed Labs.** Systems that turn inner process into runnable outer structure.
 
-Public work spans **170 non-fork repositories**, led by TypeScript, Python, JavaScript, Astro, Shell, and Rust. The work moves between agentic operations, symbolic runtimes, spatial interfaces, trust surfaces, narrative archives, and small tools that make expert practice portable.
+Public work spans **170 non-fork repositories**, led by TypeScript, Python, JavaScript, Astro, Shell, and Rust. The surface moves through six rooms: agentic operations, symbolic runtimes, spatial interfaces, trust surfaces, narrative archives, and tools that keep practice intact.
 
 <table>
 <tr>
 <td width="58%" valign="top">
 
-### Practice
+### World
 
-Agentic product systems, brand orchestration, local operator runtimes, spatial viewers, and reflection-first computing.
+Agentic products, brand orchestration, local operator runtimes, spatial viewers, and reflection-first computing.
 
 </td>
 <td width="42%" valign="top">
@@ -41,11 +41,21 @@ TypeScript, React, Astro, Python, Rust, Cloudflare, Electron, Tauri, Raycast, sh
 
 <img src="assets/divider.svg" width="100%" alt="section divider" />
 
-## Through-line
+## World
 
 Most software ships the outer surface. The harder work is the substrate underneath: intention becoming procedure, procedure becoming interface, interface becoming repeatable work.
 
 That substrate appears here as venture operators, brand foundries, local agent runtimes, spatial real-estate systems, narrative engines, healing-marketplace tools, and reflection-first computing experiments.
+
+<img src="assets/reel.jpg" alt="Three recurring rooms: world as interface, system as ritual, archive as memory" width="100%" />
+
+## Rooms
+
+| Room | What it holds | Public evidence |
+| --- | --- | --- |
+| World as interface | Spatial systems, property viewers, portals, panorama tools. | [`vantyx`](https://github.com/Sheshiyer/vantyx), [`marina1-k`](https://github.com/Sheshiyer/marina1-k), [`newsense-spatial`](https://github.com/Sheshiyer/newsense-spatial) |
+| System as ritual | Operators, skill clusters, generated brand systems, local runtimes. | [`cambium`](https://github.com/Sheshiyer/cambium), [`brandmint-oracle-aleph`](https://github.com/Sheshiyer/brandmint-oracle-aleph), [`temperance_engine`](https://github.com/Sheshiyer/temperance_engine) |
+| Archive as memory | Narrative engines, research surfaces, symbolic vaults. | [`synchronocities-blog`](https://github.com/Sheshiyer/synchronocities-blog), [`Somatic-Canticles`](https://github.com/Sheshiyer/Somatic-Canticles), [`wtfmedia`](https://github.com/Sheshiyer/wtfmedia) |
 
 <img src="assets/atlas.svg" alt="Public work index organized by venture operations, reflection runtimes, spatial systems, trust surfaces, narrative archives, and toolmaking" width="100%" />
 
