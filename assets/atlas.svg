@@ -38,9 +38,9 @@
     <g transform="translate(0 322)">
       <text class="mono" x="72" y="0" fill="#E1E0CC" font-size="13">REFLECTION</text>
       <text class="body" x="72" y="28" fill="#A9A797" font-size="15">Symbolic work is kept runnable, inspectable, and grounded in code.</text>
-      <rect x="640" y="-16" width="157" height="12" rx="6" fill="#E1E0CC" fill-opacity="0.44"/>
-      <rect x="813" y="-16" width="58" height="12" rx="6" fill="#DEDBC8" fill-opacity="0.82"/>
-      <text class="mono" x="620" y="-5" fill="#DEDBC8" font-size="12" text-anchor="end">14 repos</text>
+      <rect x="640" y="-16" width="160" height="12" rx="6" fill="#E1E0CC" fill-opacity="0.44"/>
+      <rect x="816" y="-16" width="58" height="12" rx="6" fill="#DEDBC8" fill-opacity="0.82"/>
+      <text class="mono" x="620" y="-5" fill="#DEDBC8" font-size="12" text-anchor="end">15 repos</text>
     </g>
     <g transform="translate(0 404)">
       <text class="mono" x="72" y="0" fill="#E1E0CC" font-size="13">SPATIAL</text>
@@ -59,8 +59,8 @@
     <g transform="translate(0 568)">
       <text class="mono" x="72" y="0" fill="#E1E0CC" font-size="13">NARRATIVE</text>
       <text class="body" x="72" y="28" fill="#A9A797" font-size="15">Archives hold story, research, media, and ritual without flattening them.</text>
-      <rect x="640" y="-16" width="175" height="12" rx="6" fill="#E1E0CC" fill-opacity="0.44"/>
-      <rect x="831" y="-16" width="86" height="12" rx="6" fill="#DEDBC8" fill-opacity="0.82"/>
+      <rect x="640" y="-16" width="176" height="12" rx="6" fill="#E1E0CC" fill-opacity="0.44"/>
+      <rect x="832" y="-16" width="86" height="12" rx="6" fill="#DEDBC8" fill-opacity="0.82"/>
       <text class="mono" x="620" y="-5" fill="#DEDBC8" font-size="12" text-anchor="end">21 repos</text>
     </g>
     <g transform="translate(0 650)">
@@ -68,6 +68,6 @@
       <text class="body" x="72" y="28" fill="#A9A797" font-size="15">Expert workflows become portable without shaving off the practice.</text>
       <rect x="640" y="-16" width="380" height="12" rx="6" fill="#E1E0CC" fill-opacity="0.44"/>
       <rect x="1036" y="-16" width="86" height="12" rx="6" fill="#DEDBC8" fill-opacity="0.82"/>
-      <text class="mono" x="620" y="-5" fill="#DEDBC8" font-size="12" text-anchor="end">99 repos</text>
+      <text class="mono" x="620" y="-5" fill="#DEDBC8" font-size="12" text-anchor="end">98 repos</text>
     </g>
 </svg>
