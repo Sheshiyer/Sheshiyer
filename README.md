@@ -18,7 +18,7 @@
 
 **Witness Alchemist at Thoughtseed Labs.** Systems that turn inner process into runnable outer structure.
 
-Public work spans **170 non-fork repositories**, led by TypeScript, Python, JavaScript, Astro, Shell, and Rust. The surface moves through six rooms: agentic operations, symbolic runtimes, spatial interfaces, trust surfaces, narrative archives, and tools that keep practice intact.
+Public work spans **171 non-fork repositories**, led by TypeScript, Python, JavaScript, Astro, Shell, and Rust. The surface moves through six rooms: agentic operations, symbolic runtimes, spatial interfaces, trust surfaces, narrative archives, and tools that keep practice intact.
 
 <table>
 <tr>
@@ -65,24 +65,24 @@ That substrate appears here as venture operators, brand foundries, local agent r
 | Field | Public repos | Recent anchors | Pattern |
 | --- | ---: | --- | --- |
 | Venture operations | 12 | [`cambium`](https://github.com/Sheshiyer/cambium), [`temperance_engine`](https://github.com/Sheshiyer/temperance_engine), [`snow-gloves-os`](https://github.com/Sheshiyer/snow-gloves-os), [`brandmint-oracle-aleph`](https://github.com/Sheshiyer/brandmint-oracle-aleph) | Taste, planning, execution, and review stay in the same loop. |
-| Reflection runtimes | 15 | [`noesismirror-web`](https://github.com/Sheshiyer/noesismirror-web), [`witness-agents`](https://github.com/Sheshiyer/witness-agents), [`tpothp`](https://github.com/Sheshiyer/tpothp), [`Selemene-engine`](https://github.com/Sheshiyer/Selemene-engine) | Symbolic work is kept runnable, inspectable, and grounded in code. |
+| Reflection runtimes | 15 | [`noesismirror-web`](https://github.com/Sheshiyer/noesismirror-web), [`Selemene-engine`](https://github.com/Sheshiyer/Selemene-engine), [`witness-agents`](https://github.com/Sheshiyer/witness-agents), [`tpothp`](https://github.com/Sheshiyer/tpothp) | Symbolic work is kept runnable, inspectable, and grounded in code. |
 | Spatial systems | 11 | [`marina1-k`](https://github.com/Sheshiyer/marina1-k), [`vantyx`](https://github.com/Sheshiyer/vantyx), [`newsense-spatial`](https://github.com/Sheshiyer/newsense-spatial), [`dashboard-0.1-coproperty`](https://github.com/Sheshiyer/dashboard-0.1-coproperty) | Place is treated as interface: mapped, navigable, and operational. |
 | Trust surfaces | 13 | [`fitcheck-landing`](https://github.com/Sheshiyer/fitcheck-landing), [`klear-karma-website-v2`](https://github.com/Sheshiyer/klear-karma-website-v2), [`kkv2-astro-wiki`](https://github.com/Sheshiyer/kkv2-astro-wiki), [`tirakplus`](https://github.com/Sheshiyer/tirakplus) | Trust surfaces carry consent, verification, and cultural context. |
 | Narrative archives | 21 | [`synchronocities-blog`](https://github.com/Sheshiyer/synchronocities-blog), [`somatic-canticles-bm-wiki`](https://github.com/Sheshiyer/somatic-canticles-bm-wiki), [`wtfmedia`](https://github.com/Sheshiyer/wtfmedia), [`somatic-canticles-v3-book-trilogy`](https://github.com/Sheshiyer/somatic-canticles-v3-book-trilogy) | Archives hold story, research, media, and ritual without flattening them. |
-| Toolmaking | 98 | [`plexus-ts`](https://github.com/Sheshiyer/plexus-ts), [`framer-plugin-mcp`](https://github.com/Sheshiyer/framer-plugin-mcp), [`skill-clusters`](https://github.com/Sheshiyer/skill-clusters), [`professional-headshot-suite`](https://github.com/Sheshiyer/professional-headshot-suite) | Expert workflows become portable without shaving off the practice. |
+| Toolmaking | 99 | [`rasa`](https://github.com/Sheshiyer/rasa), [`plexus-ts`](https://github.com/Sheshiyer/plexus-ts), [`arcplume`](https://github.com/Sheshiyer/arcplume), [`framer-plugin-mcp`](https://github.com/Sheshiyer/framer-plugin-mcp) | Expert workflows become portable without shaving off the practice. |
 
 ## Recent public movement
 
 | Repository | Field | Language | Focus |
 | --- | --- | --- | --- |
-| [`noesismirror-web`](https://github.com/Sheshiyer/noesismirror-web) | Reflection runtimes | TypeScript | Immersive 3D memory palace viewer for witness premium packs |
-| [`plexus-ts`](https://github.com/Sheshiyer/plexus-ts) | Toolmaking | TypeScript | Plexus - Thoughtseed member runtime (Listener/Runner/State + bridge client). Electron app per... |
+| [`rasa`](https://github.com/Sheshiyer/rasa) | Toolmaking | TypeScript | Rasa - a month of meals, planned to your macros and budget, ordered one tap at a time via the Swiggy... |
 | [`cambium`](https://github.com/Sheshiyer/cambium) | Venture operations | TypeScript | Cambium - the autonomous, on-brand venture operator. Free build, paid taste. Umbrella for the brandmint... |
+| [`temperance_engine`](https://github.com/Sheshiyer/temperance_engine) | Venture operations | Shell | Public installer for a local PAI operator runtime with skill-cluster routing, optional peon-ping voice... |
+| [`plexus-ts`](https://github.com/Sheshiyer/plexus-ts) | Toolmaking | TypeScript | Plexus - Thoughtseed member runtime (Listener/Runner/State + bridge client). Electron app per... |
 | [`synchronocities-blog`](https://github.com/Sheshiyer/synchronocities-blog) | Narrative archives | TypeScript | A 55-day mythic journey through Thailand told as a depth-scrolling tarot gallery. 20 unique card... |
-| [`fitcheck-landing`](https://github.com/Sheshiyer/fitcheck-landing) | Trust surfaces | TypeScript | Fitcheck - AI virtual try-on launch landing for Shopify fashion brands. Zero-dep static site... |
-| [`klear-karma-website-v2`](https://github.com/Sheshiyer/klear-karma-website-v2) | Trust surfaces | HTML | Klear Karma v2 landing site - design-first 12-section premium static site with GPT-Image-2 generated... |
-| [`witness-agents`](https://github.com/Sheshiyer/witness-agents) | Reflection runtimes | TypeScript | Embodied meaning-authoring dyad - Aletheios & Pichet as inference layer for Selemene Engine and... |
-| [`marina1-k`](https://github.com/Sheshiyer/marina1-k) | Spatial systems | HTML | Marina One, Bengaluru - immersive 360 panorama viewer (5 floors x morning/evening/night). Static build... |
+| [`noesismirror-web`](https://github.com/Sheshiyer/noesismirror-web) | Reflection runtimes | TypeScript | Immersive 3D memory palace viewer for witness premium packs |
+| [`Selemene-engine`](https://github.com/Sheshiyer/Selemene-engine) | Reflection runtimes | Rust | Reflection-first consciousness engine with 16 symbolic mirrors and 6 synthesis workflows. Not... |
+| [`arcplume`](https://github.com/Sheshiyer/arcplume) | Toolmaking | Shell | Arcplume - hardened Grok skill for local signed-in X account workflows with cookie-backed auth and... |
 
 <details>
 <summary><b>Public language profile</b></summary>
@@ -90,7 +90,7 @@ That substrate appears here as venture operators, brand foundries, local agent r
 
 | Language | Public non-fork repositories |
 | --- | ---: |
-| TypeScript | 72 |
+| TypeScript | 73 |
 | JavaScript | 22 |
 | Python | 21 |
 | Unspecified | 18 |
