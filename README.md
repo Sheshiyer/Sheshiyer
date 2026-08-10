@@ -18,7 +18,7 @@
 
 **Witness Alchemist at Thoughtseed Labs.** Systems that turn inner process into runnable outer structure.
 
-Public work spans **172 non-fork repositories**, led by TypeScript, Python, JavaScript, Astro, Shell, and Rust. The surface moves through six rooms: agentic operations, symbolic runtimes, spatial interfaces, trust surfaces, narrative archives, and tools that keep practice intact.
+Public work spans **171 non-fork repositories**, led by TypeScript, Python, JavaScript, Astro, Shell, and Rust. The surface moves through six rooms: agentic operations, symbolic runtimes, spatial interfaces, trust surfaces, narrative archives, and tools that keep practice intact.
 
 <table>
 <tr>
@@ -64,25 +64,25 @@ That substrate appears here as venture operators, brand foundries, local agent r
 
 | Field | Public repos | Recent anchors | Pattern |
 | --- | ---: | --- | --- |
-| Venture operations | 12 | [`temperance_engine`](https://github.com/Sheshiyer/temperance_engine), [`cambium`](https://github.com/Sheshiyer/cambium), [`team-forge-ts`](https://github.com/Sheshiyer/team-forge-ts), [`snow-gloves-os`](https://github.com/Sheshiyer/snow-gloves-os) | Taste, planning, execution, and review stay in the same loop. |
-| Reflection runtimes | 16 | [`Selemene-engine`](https://github.com/Sheshiyer/Selemene-engine), [`urania-137`](https://github.com/Sheshiyer/urania-137), [`tpothp`](https://github.com/Sheshiyer/tpothp), [`webshore-witnessos-aleph`](https://github.com/Sheshiyer/webshore-witnessos-aleph) | Symbolic work is kept runnable, inspectable, and grounded in code. |
-| Spatial systems | 11 | [`panorama-viewer-marina-beta`](https://github.com/Sheshiyer/panorama-viewer-marina-beta), [`marina1-k`](https://github.com/Sheshiyer/marina1-k), [`spatial-anubis-noesis`](https://github.com/Sheshiyer/spatial-anubis-noesis), [`vantyx`](https://github.com/Sheshiyer/vantyx) | Place is treated as interface: mapped, navigable, and operational. |
-| Trust surfaces | 13 | [`tirak-backend-alpha01`](https://github.com/Sheshiyer/tirak-backend-alpha01), [`tirak-website-v1`](https://github.com/Sheshiyer/tirak-website-v1), [`fitcheck-landing`](https://github.com/Sheshiyer/fitcheck-landing), [`wikiv2-tirakapp`](https://github.com/Sheshiyer/wikiv2-tirakapp) | Trust surfaces carry consent, verification, and cultural context. |
-| Narrative archives | 21 | [`synchronocities-blog`](https://github.com/Sheshiyer/synchronocities-blog), [`somatic-canticles-v3-book-trilogy`](https://github.com/Sheshiyer/somatic-canticles-v3-book-trilogy), [`somatic-canticles-bm-wiki`](https://github.com/Sheshiyer/somatic-canticles-bm-wiki), [`wtfmedia`](https://github.com/Sheshiyer/wtfmedia) | Archives hold story, research, media, and ritual without flattening them. |
-| Toolmaking | 99 | [`plexus-ts`](https://github.com/Sheshiyer/plexus-ts), [`thoughtseed-labs`](https://github.com/Sheshiyer/thoughtseed-labs), [`brahma13x19darshanam`](https://github.com/Sheshiyer/brahma13x19darshanam), [`10865xseed`](https://github.com/Sheshiyer/10865xseed) | Expert workflows become portable without shaving off the practice. |
+| Venture operations | 12 | [`cambium`](https://github.com/Sheshiyer/cambium), [`temperance_engine_landing_page`](https://github.com/Sheshiyer/temperance_engine_landing_page), [`brandmint-showcase`](https://github.com/Sheshiyer/brandmint-showcase), [`temperance_engine`](https://github.com/Sheshiyer/temperance_engine) | Taste, planning, execution, and review stay in the same loop. |
+| Reflection runtimes | 16 | [`urania-137`](https://github.com/Sheshiyer/urania-137), [`tryambakam-space`](https://github.com/Sheshiyer/tryambakam-space), [`witness-agents`](https://github.com/Sheshiyer/witness-agents), [`Selemene-engine`](https://github.com/Sheshiyer/Selemene-engine) | Symbolic work is kept runnable, inspectable, and grounded in code. |
+| Spatial systems | 11 | [`vantyx`](https://github.com/Sheshiyer/vantyx), [`newsense-spatial`](https://github.com/Sheshiyer/newsense-spatial), [`panorama-viewer-marina-beta`](https://github.com/Sheshiyer/panorama-viewer-marina-beta), [`marina1-k`](https://github.com/Sheshiyer/marina1-k) | Place is treated as interface: mapped, navigable, and operational. |
+| Trust surfaces | 13 | [`fitcheck-landing`](https://github.com/Sheshiyer/fitcheck-landing), [`klear-karma-website-v2`](https://github.com/Sheshiyer/klear-karma-website-v2), [`tirak-backend-alpha01`](https://github.com/Sheshiyer/tirak-backend-alpha01), [`tirakplus`](https://github.com/Sheshiyer/tirakplus) | Trust surfaces carry consent, verification, and cultural context. |
+| Narrative archives | 21 | [`synchronocities-blog`](https://github.com/Sheshiyer/synchronocities-blog), [`Somatic-Canticles`](https://github.com/Sheshiyer/Somatic-Canticles), [`somatic-canticles-bm-wiki`](https://github.com/Sheshiyer/somatic-canticles-bm-wiki), [`SomaticCanticles-aleph0.1`](https://github.com/Sheshiyer/SomaticCanticles-aleph0.1) | Archives hold story, research, media, and ritual without flattening them. |
+| Toolmaking | 98 | [`deepseek-mcp-with-MoE`](https://github.com/Sheshiyer/deepseek-mcp-with-MoE), [`plexus-ts`](https://github.com/Sheshiyer/plexus-ts), [`explee-skills`](https://github.com/Sheshiyer/explee-skills), [`manifest-skill-137`](https://github.com/Sheshiyer/manifest-skill-137) | Expert workflows become portable without shaving off the practice. |
 
 ## Recent public movement
 
 | Repository | Field | Language | Focus |
 | --- | --- | --- | --- |
-| [`temperance_engine`](https://github.com/Sheshiyer/temperance_engine) | Venture operations | TypeScript | Public installer for a local PAI operator runtime with skill-cluster routing, optional peon-ping voice... |
-| [`Selemene-engine`](https://github.com/Sheshiyer/Selemene-engine) | Reflection runtimes | Rust | Reflection-first consciousness engine with 16 symbolic mirrors and 6 synthesis workflows. Not... |
+| [`fitcheck-landing`](https://github.com/Sheshiyer/fitcheck-landing) | Trust surfaces | TypeScript | Fitcheck - AI virtual try-on launch landing for Shopify fashion brands. Zero-dep static site... |
+| [`deepseek-mcp-with-MoE`](https://github.com/Sheshiyer/deepseek-mcp-with-MoE) | Toolmaking | JavaScript | Public work surface. |
 | [`synchronocities-blog`](https://github.com/Sheshiyer/synchronocities-blog) | Narrative archives | TypeScript | A 55-day mythic journey through Thailand told as a depth-scrolling tarot gallery. 20 unique card... |
-| [`urania-137`](https://github.com/Sheshiyer/urania-137) | Reflection runtimes | TypeScript | Selemene report console - a scroll-driven stellar-node journey (React + Vite + Tailwind + GSAP) |
+| [`cambium`](https://github.com/Sheshiyer/cambium) | Venture operations | TypeScript | Cambium - the autonomous, on-brand venture operator. Free build, paid taste. Umbrella for the brandmint... |
 | [`plexus-ts`](https://github.com/Sheshiyer/plexus-ts) | Toolmaking | TypeScript | Plexus - Thoughtseed member runtime (Listener/Runner/State + bridge client). Electron app per... |
-| [`panorama-viewer-marina-beta`](https://github.com/Sheshiyer/panorama-viewer-marina-beta) | Spatial systems | TypeScript | Public work surface. |
-| [`marina1-k`](https://github.com/Sheshiyer/marina1-k) | Spatial systems | HTML | Marina One, Bengaluru - immersive 360 panorama viewer (5 floors x morning/evening/night). Static build... |
-| [`thoughtseed-labs`](https://github.com/Sheshiyer/thoughtseed-labs) | Toolmaking | HTML | Public work surface. |
+| [`urania-137`](https://github.com/Sheshiyer/urania-137) | Reflection runtimes | TypeScript | Selemene report console - a scroll-driven stellar-node journey (React + Vite + Tailwind + GSAP) |
+| [`tryambakam-space`](https://github.com/Sheshiyer/tryambakam-space) | Reflection runtimes | TypeScript | 13-wing interactive consciousness architecture - infinite 3D canvas with React 19, Three.js, and TypeScript |
+| [`witness-agents`](https://github.com/Sheshiyer/witness-agents) | Reflection runtimes | TypeScript | Embodied meaning-authoring dyad - Aletheios & Pichet as inference layer for Selemene Engine and... |
 
 <details>
 <summary><b>Public language profile</b></summary>
@@ -91,9 +91,9 @@ That substrate appears here as venture operators, brand foundries, local agent r
 | Language | Public non-fork repositories |
 | --- | ---: |
 | TypeScript | 74 |
-| Python | 22 |
 | JavaScript | 22 |
-| Unspecified | 17 |
+| Python | 22 |
+| Unspecified | 16 |
 | HTML | 14 |
 | Astro | 9 |
 | Shell | 6 |
