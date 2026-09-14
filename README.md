@@ -64,25 +64,25 @@ That substrate appears here as venture operators, brand foundries, local agent r
 
 | Field | Public repos | Recent anchors | Pattern |
 | --- | ---: | --- | --- |
-| Venture operations | 13 | [`wtfmedia`](https://github.com/Sheshiyer/wtfmedia), [`cambium`](https://github.com/Sheshiyer/cambium), [`temperance_engine`](https://github.com/Sheshiyer/temperance_engine), [`iverif-wiki`](https://github.com/Sheshiyer/iverif-wiki) | Taste, planning, execution, and review stay in the same loop. |
-| Reflection runtimes | 16 | [`Selemene-engine`](https://github.com/Sheshiyer/Selemene-engine), [`urania-137`](https://github.com/Sheshiyer/urania-137), [`tryambakam-space`](https://github.com/Sheshiyer/tryambakam-space), [`witness-agents`](https://github.com/Sheshiyer/witness-agents) | Symbolic work is kept runnable, inspectable, and grounded in code. |
+| Venture operations | 13 | [`cambium`](https://github.com/Sheshiyer/cambium), [`temperance_engine`](https://github.com/Sheshiyer/temperance_engine), [`wtfmedia`](https://github.com/Sheshiyer/wtfmedia), [`iverif-wiki`](https://github.com/Sheshiyer/iverif-wiki) | Taste, planning, execution, and review stay in the same loop. |
+| Reflection runtimes | 16 | [`urania-137`](https://github.com/Sheshiyer/urania-137), [`Selemene-engine`](https://github.com/Sheshiyer/Selemene-engine), [`tryambakam-space`](https://github.com/Sheshiyer/tryambakam-space), [`witness-agents`](https://github.com/Sheshiyer/witness-agents) | Symbolic work is kept runnable, inspectable, and grounded in code. |
 | Spatial systems | 11 | [`vantyx`](https://github.com/Sheshiyer/vantyx), [`newsense-spatial`](https://github.com/Sheshiyer/newsense-spatial), [`panorama-viewer-marina-beta`](https://github.com/Sheshiyer/panorama-viewer-marina-beta), [`marina1-k`](https://github.com/Sheshiyer/marina1-k) | Place is treated as interface: mapped, navigable, and operational. |
 | Trust surfaces | 13 | [`fitcheck-landing`](https://github.com/Sheshiyer/fitcheck-landing), [`klear-karma-website-v2`](https://github.com/Sheshiyer/klear-karma-website-v2), [`tirak-backend-alpha01`](https://github.com/Sheshiyer/tirak-backend-alpha01), [`tirakplus`](https://github.com/Sheshiyer/tirakplus) | Trust surfaces carry consent, verification, and cultural context. |
-| Narrative archives | 20 | [`synchronocities-blog`](https://github.com/Sheshiyer/synchronocities-blog), [`Somatic-Canticles`](https://github.com/Sheshiyer/Somatic-Canticles), [`somatic-canticles-bm-wiki`](https://github.com/Sheshiyer/somatic-canticles-bm-wiki), [`SomaticCanticles-aleph0.1`](https://github.com/Sheshiyer/SomaticCanticles-aleph0.1) | Archives hold story, research, media, and ritual without flattening them. |
-| Toolmaking | 98 | [`thoughtseed-digital-wilderness`](https://github.com/Sheshiyer/thoughtseed-digital-wilderness), [`manifest-skill-137`](https://github.com/Sheshiyer/manifest-skill-137), [`plexus-ts`](https://github.com/Sheshiyer/plexus-ts), [`deepseek-mcp-with-MoE`](https://github.com/Sheshiyer/deepseek-mcp-with-MoE) | Expert workflows become portable without shaving off the practice. |
+| Narrative archives | 20 | [`synchronocities-blog`](https://github.com/Sheshiyer/synchronocities-blog), [`somatic-canticles-v3-book-trilogy`](https://github.com/Sheshiyer/somatic-canticles-v3-book-trilogy), [`Somatic-Canticles`](https://github.com/Sheshiyer/Somatic-Canticles), [`somatic-canticles-bm-wiki`](https://github.com/Sheshiyer/somatic-canticles-bm-wiki) | Archives hold story, research, media, and ritual without flattening them. |
+| Toolmaking | 98 | [`plexus-ts`](https://github.com/Sheshiyer/plexus-ts), [`thoughtseed-digital-wilderness`](https://github.com/Sheshiyer/thoughtseed-digital-wilderness), [`manifest-skill-137`](https://github.com/Sheshiyer/manifest-skill-137), [`deepseek-mcp-with-MoE`](https://github.com/Sheshiyer/deepseek-mcp-with-MoE) | Expert workflows become portable without shaving off the practice. |
 
 ## Recent public movement
 
 | Repository | Field | Language | Focus |
 | --- | --- | --- | --- |
 | [`synchronocities-blog`](https://github.com/Sheshiyer/synchronocities-blog) | Narrative archives | TypeScript | A 55-day mythic journey through Thailand told as a depth-scrolling tarot gallery. 20 unique card... |
-| [`wtfmedia`](https://github.com/Sheshiyer/wtfmedia) | Venture operations | TypeScript | WTF OS - the podcast catalogue, made askable. Evidence-linked Ask WTF (RAG), episode library, operator... |
+| [`plexus-ts`](https://github.com/Sheshiyer/plexus-ts) | Toolmaking | TypeScript | Plexus - Thoughtseed member runtime (Listener/Runner/State + bridge client). Electron app per... |
+| [`urania-137`](https://github.com/Sheshiyer/urania-137) | Reflection runtimes | TypeScript | Graph-first stellar console over the Selemene engine - chat is the threshold, the Folio is the durable... |
 | [`cambium`](https://github.com/Sheshiyer/cambium) | Venture operations | TypeScript | Cambium - the autonomous, on-brand venture operator. Free build, paid taste. Umbrella for the brandmint... |
-| [`Selemene-engine`](https://github.com/Sheshiyer/Selemene-engine) | Reflection runtimes | Rust | Reflection-first consciousness engine with 16 symbolic mirrors and 6 synthesis workflows. Not... |
+| [`Selemene-engine`](https://github.com/Sheshiyer/Selemene-engine) | Reflection runtimes | Rust | Reflection-first engine for 17 public symbolic mirrors, deterministic workflows, and witness APIs. Not... |
 | [`temperance_engine`](https://github.com/Sheshiyer/temperance_engine) | Venture operations | TypeScript | Public installer for a local PAI operator runtime with skill-cluster routing, optional peon-ping voice... |
-| [`thoughtseed-digital-wilderness`](https://github.com/Sheshiyer/thoughtseed-digital-wilderness) | Toolmaking | TypeScript | Thoughtseed agency website - Digital Wilderness. Multi-page React + Vite + TypeScript + Tailwind CSS... |
-| [`iverif-wiki`](https://github.com/Sheshiyer/iverif-wiki) | Venture operations | Astro | iverif.io brand documentation wiki |
-| [`vantyx`](https://github.com/Sheshiyer/vantyx) | Spatial systems | TypeScript | Vantyx - multi-tenant 360 panorama tour platform on Cloudflare Workers (viewer + per-tenant admin +... |
+| [`somatic-canticles-v3-book-trilogy`](https://github.com/Sheshiyer/somatic-canticles-v3-book-trilogy) | Narrative archives | Python | Public work surface. |
+| [`wtfmedia`](https://github.com/Sheshiyer/wtfmedia) | Venture operations | TypeScript | WTF OS - the podcast catalogue, made askable. Evidence-linked Ask WTF (RAG), episode library, operator... |
 
 <details>
 <summary><b>Public language profile</b></summary>
