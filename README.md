@@ -64,25 +64,25 @@ That substrate appears here as venture operators, brand foundries, local agent r
 
 | Field | Public repos | Recent anchors | Pattern |
 | --- | ---: | --- | --- |
-| Venture operations | 13 | [`cambium`](https://github.com/Sheshiyer/cambium), [`temperance_engine`](https://github.com/Sheshiyer/temperance_engine), [`wtfmedia`](https://github.com/Sheshiyer/wtfmedia), [`iverif-wiki`](https://github.com/Sheshiyer/iverif-wiki) | Taste, planning, execution, and review stay in the same loop. |
+| Venture operations | 13 | [`temperance_engine`](https://github.com/Sheshiyer/temperance_engine), [`cambium`](https://github.com/Sheshiyer/cambium), [`wtfmedia`](https://github.com/Sheshiyer/wtfmedia), [`iverif-wiki`](https://github.com/Sheshiyer/iverif-wiki) | Taste, planning, execution, and review stay in the same loop. |
 | Reflection runtimes | 16 | [`urania-137`](https://github.com/Sheshiyer/urania-137), [`Selemene-engine`](https://github.com/Sheshiyer/Selemene-engine), [`tryambakam-space`](https://github.com/Sheshiyer/tryambakam-space), [`witness-agents`](https://github.com/Sheshiyer/witness-agents) | Symbolic work is kept runnable, inspectable, and grounded in code. |
 | Spatial systems | 11 | [`vantyx`](https://github.com/Sheshiyer/vantyx), [`newsense-spatial`](https://github.com/Sheshiyer/newsense-spatial), [`panorama-viewer-marina-beta`](https://github.com/Sheshiyer/panorama-viewer-marina-beta), [`marina1-k`](https://github.com/Sheshiyer/marina1-k) | Place is treated as interface: mapped, navigable, and operational. |
-| Trust surfaces | 13 | [`fitcheck-landing`](https://github.com/Sheshiyer/fitcheck-landing), [`klear-karma-website-v2`](https://github.com/Sheshiyer/klear-karma-website-v2), [`tirak-backend-alpha01`](https://github.com/Sheshiyer/tirak-backend-alpha01), [`tirakplus`](https://github.com/Sheshiyer/tirakplus) | Trust surfaces carry consent, verification, and cultural context. |
+| Trust surfaces | 13 | [`klear-karma-website-v2`](https://github.com/Sheshiyer/klear-karma-website-v2), [`tirak-mobile-app-v2`](https://github.com/Sheshiyer/tirak-mobile-app-v2), [`fitcheck-landing`](https://github.com/Sheshiyer/fitcheck-landing), [`tirak-backend-alpha01`](https://github.com/Sheshiyer/tirak-backend-alpha01) | Trust surfaces carry consent, verification, and cultural context. |
 | Narrative archives | 20 | [`synchronocities-blog`](https://github.com/Sheshiyer/synchronocities-blog), [`somatic-canticles-v3-book-trilogy`](https://github.com/Sheshiyer/somatic-canticles-v3-book-trilogy), [`Somatic-Canticles`](https://github.com/Sheshiyer/Somatic-Canticles), [`somatic-canticles-bm-wiki`](https://github.com/Sheshiyer/somatic-canticles-bm-wiki) | Archives hold story, research, media, and ritual without flattening them. |
-| Toolmaking | 98 | [`plexus-ts`](https://github.com/Sheshiyer/plexus-ts), [`thoughtseed-digital-wilderness`](https://github.com/Sheshiyer/thoughtseed-digital-wilderness), [`manifest-skill-137`](https://github.com/Sheshiyer/manifest-skill-137), [`deepseek-mcp-with-MoE`](https://github.com/Sheshiyer/deepseek-mcp-with-MoE) | Expert workflows become portable without shaving off the practice. |
+| Toolmaking | 98 | [`astrelens-v1`](https://github.com/Sheshiyer/astrelens-v1), [`plexus-ts`](https://github.com/Sheshiyer/plexus-ts), [`thoughtseed-digital-wilderness`](https://github.com/Sheshiyer/thoughtseed-digital-wilderness), [`manifest-skill-137`](https://github.com/Sheshiyer/manifest-skill-137) | Expert workflows become portable without shaving off the practice. |
 
 ## Recent public movement
 
 | Repository | Field | Language | Focus |
 | --- | --- | --- | --- |
 | [`synchronocities-blog`](https://github.com/Sheshiyer/synchronocities-blog) | Narrative archives | TypeScript | A 55-day mythic journey through Thailand told as a depth-scrolling tarot gallery. 20 unique card... |
-| [`plexus-ts`](https://github.com/Sheshiyer/plexus-ts) | Toolmaking | TypeScript | Plexus - Thoughtseed member runtime (Listener/Runner/State + bridge client). Electron app per... |
 | [`urania-137`](https://github.com/Sheshiyer/urania-137) | Reflection runtimes | TypeScript | Graph-first stellar console over the Selemene engine - chat is the threshold, the Folio is the durable... |
-| [`cambium`](https://github.com/Sheshiyer/cambium) | Venture operations | TypeScript | Cambium - the autonomous, on-brand venture operator. Free build, paid taste. Umbrella for the brandmint... |
-| [`Selemene-engine`](https://github.com/Sheshiyer/Selemene-engine) | Reflection runtimes | Rust | Reflection-first engine for 17 public symbolic mirrors, deterministic workflows, and witness APIs. Not... |
+| [`astrelens-v1`](https://github.com/Sheshiyer/astrelens-v1) | Toolmaking | Swift | AstroLens V1: iPhone-first AR astrology planning and swarm execution repo |
+| [`klear-karma-website-v2`](https://github.com/Sheshiyer/klear-karma-website-v2) | Trust surfaces | HTML | Klear Karma v2 landing site - design-first 12-section premium static site with GPT-Image-2 generated... |
 | [`temperance_engine`](https://github.com/Sheshiyer/temperance_engine) | Venture operations | TypeScript | Public installer for a local PAI operator runtime with skill-cluster routing, optional peon-ping voice... |
-| [`somatic-canticles-v3-book-trilogy`](https://github.com/Sheshiyer/somatic-canticles-v3-book-trilogy) | Narrative archives | Python | Public work surface. |
-| [`wtfmedia`](https://github.com/Sheshiyer/wtfmedia) | Venture operations | TypeScript | WTF OS - the podcast catalogue, made askable. Evidence-linked Ask WTF (RAG), episode library, operator... |
+| [`tirak-mobile-app-v2`](https://github.com/Sheshiyer/tirak-mobile-app-v2) | Trust surfaces | TypeScript | Tirak mobile app for trusted local guides and authentic cultural experiences in Thailand. |
+| [`plexus-ts`](https://github.com/Sheshiyer/plexus-ts) | Toolmaking | TypeScript | Plexus - Thoughtseed member runtime (Listener/Runner/State + bridge client). Electron app per... |
+| [`cambium`](https://github.com/Sheshiyer/cambium) | Venture operations | TypeScript | Cambium - the autonomous, on-brand venture operator. Free build, paid taste. Umbrella for the brandmint... |
 
 <details>
 <summary><b>Public language profile</b></summary>
@@ -93,15 +93,15 @@ That substrate appears here as venture operators, brand foundries, local agent r
 | TypeScript | 75 |
 | Python | 22 |
 | JavaScript | 22 |
-| Unspecified | 16 |
+| Unspecified | 15 |
 | HTML | 13 |
 | Astro | 9 |
 | Shell | 6 |
 | CSS | 3 |
+| Swift | 1 |
 | Rust | 1 |
 | MDX | 1 |
 | Ruby | 1 |
-| Mermaid | 1 |
 
 </details>
 <!-- public-work-index:end -->
